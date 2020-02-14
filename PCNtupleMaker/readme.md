@@ -6,36 +6,43 @@
 To setup: uses CMSSW 10_6_8
 
 grab the release
-cmsrel 10_6_8
+	cmsrel 10_6_8
 
 clone the repository into CMSSW_10_6_8/src/
-cd CMSSW_10_6_8/src
-git clone https://github.com/Jphsx/PCNtupleMaker.git MaterialStudy
+
+	cd CMSSW_10_6_8/src
+	git clone https://github.com/Jphsx/PCNtupleMaker.git MaterialStudy
 
 
 
 setup environment
-cmsenv
+
+	cmsenv
 
 build the Ntuplizer
-scram b
+
+	scram b
 
 if the files to be run over are not local, set up grid
-voms-proxy-init --voms cms
+
+	voms-proxy-init --voms cms
 
 authenticate grid
 
 To run interactively use configuration scripts in the test directory
-cmsRun DYMC2018_cfg.py 
+
+	cmsRun DYMC2018_cfg.py 
 
 
 To run over different files, modify or create a new cfg script and change the input source
+
 	fileNames = cms.untracked.vstring(
 		'file:/pathtolocalfile/file1.root',
 		'file:/pathtolocalfile/file2.root',
 	),
 
 If the files are not local, here is syntax for 2017C single muon data file
+
 	fileNames = cms.untracked.vstring(
 		'/store/data/Run2017C/SingleMuon/MINIAOD/17Nov2017-v1/70000/FE39A6C4-7FDA-E711-8C6B-02163E014496.root',
 	        '/store/data/Run2017C/SingleMuon/MINIAOD/17Nov2017-v1/70000/FCDAA686-73DA-E711-BBE6-02163E013747.root',
