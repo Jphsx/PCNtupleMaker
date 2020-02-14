@@ -9,6 +9,10 @@ grab the release
 cmsrel 10_6_8
 
 clone the repository into CMSSW_10_6_8/src/
+cd CMSSW_10_6_8/src
+git clone https://github.com/Jphsx/PCNtupleMaker.git MaterialStudy
+
+
 
 setup environment
 cmsenv
