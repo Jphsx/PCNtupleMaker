@@ -6,6 +6,7 @@
 To setup: uses CMSSW 10_6_8
 
 grab the release
+
 	cmsrel 10_6_8
 
 clone the repository into CMSSW_10_6_8/src/
