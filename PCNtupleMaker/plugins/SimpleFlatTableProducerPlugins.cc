@@ -4,6 +4,8 @@
 #include "DataFormats/EgammaCandidates/interface/Conversion.h"
 typedef SimpleFlatTableProducer<reco::Conversion> SimpleConversionTableProducer;
 
+#include "DataFormats/VertexReco/interface/Vertex.h"
+typedef SimpleFlatTableProducer<reco::Vertex> SimpleVertexTableProducer;
 
 //#include "DataFormats/Candidate/interface/Candidate.h"
 //typedef SimpleFlatTableProducer<reco::Candidate> SimpleCandidateFlatTableProducer;
@@ -19,3 +21,4 @@ typedef SimpleFlatTableProducer<reco::Conversion> SimpleConversionTableProducer;
 //DEFINE_FWK_MODULE(SimpleGenEventFlatTableProducer);
 //EFINE_FWK_MODULE(SimpleHTXSFlatTableProducer);
 DEFINE_FWK_MODULE(SimpleConversionTableProducer);
+DEFINE_FWK_MODULE(SimpleVertexTableProducer);

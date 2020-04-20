@@ -28,6 +28,11 @@ process.source = cms.Source("PoolSource", fileNames = cms.untracked.vstring())
 process.source.fileNames = cms.untracked.vstring(options.inputFiles)
 
 
+from MaterialStudy.PCNtupleMaker.globals_cff import *
+process.load("MaterialStudy.PCNtupleMaker.globals_cff")
+
+from MaterialStudy.PCNtupleMaker.vertices_cff import *
+process.load("MaterialStudy.PCNtupleMaker.vertices_cff")
 
 from MaterialStudy.PCNtupleMaker.convs_cff import *
 process.load("MaterialStudy.PCNtupleMaker.convs_cff")
@@ -45,7 +50,9 @@ process.load("MaterialStudy.PCNtupleMaker.convs_cff")
 
 #process.Path = cms.Path(genParticleSequence+ genParticleTables + muonSequence + muonTables + muonMC +qTables + qMC )
 #process.Path = cms.Path( qTables )
-process.Path = cms.Path( convTables )
+#process.Path = cms.Path( globalTables + vertexTables + convTables )
+process.Path = cms.Path(vertexTables * convTables)
+
 
 #process.Path = cms.Path(process.nanoSequenceMC)
 #for data:

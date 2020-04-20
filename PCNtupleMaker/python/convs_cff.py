@@ -90,6 +90,19 @@ convTable = cms.EDProducer("SimpleConversionTableProducer",
 	#quality = Var("quality()",int, doc="generalTracksOnly=0 arbitratedEcalSeeded=1, arbitratedMerged=2, arbitratedMergedEcalGeneral=3, gsfTracksOpenOnly=4, highPurity=8, highEfficiency=9, ecalMatched1Track=10, ecalMatched2Track=11"), #not worth getting to work
 
 	vtx_X = Var("conversionVertex().position().X()",float,doc="x component of the reco conversion vertex"),
+	vtx_Y = Var("conversionVertex().position().Y()",float,doc="y component of the reco conversion vertex"),
+	vtx_Z = Var("conversionVertex().position().Z()",float,doc="z component of the reco conversion vertex"),
+	vtx_cov_00 = Var("conversionVertex().covariance(0,0)",float,doc="vertex covariance element xx"),
+	vtx_cov_01 = Var("conversionVertex().covariance(0,1)",float,doc="vertex covariance element xy"),
+	vtx_cov_02 = Var("conversionVertex().covariance(0,2)",float,doc="vertex covariance element xz"),
+	vtx_cov_11 = Var("conversionVertex().covariance(1,1)",float,doc="vertex covariance element yy"),
+	vtx_cov_12 = Var("conversionVertex().covariance(1,2)",float,doc="vertex covariance element yz"),
+	vtx_cov_22 = Var("conversionVertex().covariance(2,2)",float,doc="vertex covariance element zz"),
+	vtx_chi2 = Var("conversionVertex().chi2()",float,doc="chi-squared"),
+	vtx_normalizedChi2 = Var("conversionVertex().normalizedChi2()",float,doc="chi-squared divided by n.d.o.f"),
+	vtx_ndof = Var("conversionVertex().ndof()",float,doc="Number of degreese of freedom, tracks may contribute to the vertex with fractional weights. The ndof is then equal to the sum of the track weights. see e.g. CMS NOTE-2006/032, CMS NOTE-2004/002"),
+	
+		
 
 
 	),
