@@ -131,6 +131,12 @@ convTable = cms.EDProducer("SimpleConversionTableProducer",
 )
 
 
+c1tks = cms.EDProducer("convTrkProducer",
+	src = cms.InputTag("allConversions"),
+	trkCandIdx = cms.int32(0),
+)
+
+
 #TODO MC MATCHING
 """
 convMCMatchForTable = cms.EDProducer("MCMatcher",       # cut on deltaR, deltaPt/Pt; pick best by deltaR
@@ -158,5 +164,5 @@ qMCTable = cms.EDProducer("CandMCMatchTableProducer",
 
 #convTables = cms.Sequence( convs + convTable)
 convTables = cms.Sequence( convTable)
-
-
+#convTablesMC = cms.Sequence( convTable + convMCMatchForTable + qMCTable )
+testseq = cms.Sequence(convTable + c1tks) 
