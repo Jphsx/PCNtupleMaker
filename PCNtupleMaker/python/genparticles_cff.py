@@ -6,15 +6,15 @@ from  PhysicsTools.NanoAOD.common_cff import *
 ##################### User floats producers, selectors ##########################
 
 finalGenParticles = cms.EDProducer("GenParticlePruner",
-    src = cms.InputTag("GenParticles"),
+    src = cms.InputTag("genParticles"),
     select = cms.vstring(
 	"drop *",
         "keep++ abs(pdgId) == 15 & (pt > 15 ||  isPromptDecayed() )",#  keep full tau decay chain for some taus
 	#"drop status==1 & pt < 1", #drop soft stable particle in tau decay
         "keep+ abs(pdgId) == 15 ",  #  keep first gen decay product for all tau
-        "keep+ abs(pdgId) == 211 || abs(pdgID) == ", #keep pions for mc matching
+        "keep+ abs(pdgId) == 211 || abs(pdgId) == 111 ", #keep pions for mc matching
         #"+keep pdgId == 22 && status == 1 && (pt > 10 || isPromptFinalState())", # keep gamma above 10 GeV (or all prompt) and its first parent
-        "keep pdgID == 22"
+        "+keep pdgId == 22",
 	"+keep abs(pdgId) == 11 || abs(pdgId) == 13 || abs(pdgId) == 15", #keep leptons, with at most one mother back in the history
 	"drop abs(pdgId)= 2212 && abs(pz) > 1000", #drop LHC protons accidentally added by previous keeps
         "keep (400 < abs(pdgId) < 600) || (4000 < abs(pdgId) < 6000)", #keep all B and C hadrons
@@ -32,8 +32,10 @@ finalGenParticles = cms.EDProducer("GenParticlePruner",
 
 
 ##################### Tables for final output and docs ##########################
+#genParticleTable = cms.EDProducer("SimpleGenParticleFlatTableProducer",
 genParticleTable = cms.EDProducer("SimpleCandidateFlatTableProducer",
     src = cms.InputTag("finalGenParticles"),
+    #src = cms.InputTag("GenParticles"),
     cut = cms.string(""), #we should not filter after pruning
     name= cms.string("GenPart"),
     doc = cms.string("interesting gen particles "),
@@ -44,7 +46,7 @@ genParticleTable = cms.EDProducer("SimpleCandidateFlatTableProducer",
          phi = Var("phi", float,precision=8),
          eta  = Var("eta",  float,precision=8),
          mass = Var("?mass>10 || (pdgId==22 && mass > 1) || abs(pdgId)==24 || pdgId==23 || abs(pdgId)>1000000?mass:0", float,precision="?(abs(pdgId)==6 && statusFlags().isLastCopy())?20:8",doc="Mass stored for all particles with mass > 10 GeV and photons with mass > 1 GeV, plus W/Z and BSM particles. For other particles you can lookup from PDGID"),
-         pdgId  = Var("pdgId", int, doc="PDG id"),
+         pdgId  = Var("pdgId()", int, doc="PDG id"),
          status  = Var("status", int, doc="Particle status. 1=stable"),
          genPartIdxMother = Var("?numberOfMothers>0?motherRef(0).key():-1", int, doc="index of the mother particle"),
          statusFlags = (Var(

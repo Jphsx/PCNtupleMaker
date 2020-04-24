@@ -35,7 +35,7 @@
 #include "DataFormats/TrackReco/interface/TrackBase.h"
 #include "DataFormats/TrackReco/interface/Track.h"
 #include "DataFormats/TrackReco/interface/TrackFwd.h"
-
+#include "FWCore/MessageLogger/interface/MessageLogger.h"
 //
 // class declaration
 //
@@ -132,6 +132,11 @@ convTrkProducer::produce(edm::Event& iEvent, const edm::EventSetup& iSetup)
 */
   Handle<View<reco::Conversion> > convs;
   iEvent.getByToken(convs_, convs);
+ // std::cout<<"entered produce"<<std::endl;
+
+  //LogDebug("Trace") >>"entered produce";
+  //LogDebug("Values") >>"MyOtherStuff vector has size">>otherStuffs->size();
+  //LogDebug("Trace") >>"exiting produce";
   
   ///edm::RefToBase<reco::Track> cTrack;
   reco::Track cTrack;
@@ -141,14 +146,14 @@ convTrkProducer::produce(edm::Event& iEvent, const edm::EventSetup& iSetup)
 
   View<reco::Conversion>::const_iterator conv, endconvs=convs->end();
   //View<reco::Track>::const_iterator trk;
-
+int i=0; 
   for (conv = convs->begin(); conv != endconvs; ++conv){
 	
 	conv->tracks();
 //	for( trk = conv->tracks()->begin(); trk != conv->Tracks()->end(); ++trk){
 	//cTrack = convs->tracks()[trkCandIdx_];	
 	tracks->push_back(cTrack);
-		
+	if(i==0) std::cout<<cTrack.pt()<<std::endl;
 
 //	}
 

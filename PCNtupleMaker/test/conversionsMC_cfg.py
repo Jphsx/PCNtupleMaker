@@ -11,8 +11,19 @@ options.outputFile = "defaultout.root"
 options.maxEvents = 100
 options.parseArguments()
 
-
 process.load("FWCore.MessageLogger.MessageLogger_cfi")
+
+"""
+service = MessageLogger {
+      vstring destinations =  {"debug.txt"}
+      PSet debug.txt = { 
+         string threshold = "DEBUG" 
+         PSet DEBUG = { int32 limit = -1}    
+      }
+      vstring debugModules = { "stuff"} 
+}
+"""
+
 
 process.load("Configuration.StandardSequences.GeometryDB_cff")
 process.load("Configuration.StandardSequences.FrontierConditions_GlobalTag_cff")
@@ -28,6 +39,9 @@ process.source = cms.Source("PoolSource", fileNames = cms.untracked.vstring())
 process.source.fileNames = cms.untracked.vstring(options.inputFiles)
 
 
+from MaterialStudy.PCNtupleMaker.genparticles_cff import *
+process.load("MaterialStudy.PCNtupleMaker.genparticles_cff")
+
 from MaterialStudy.PCNtupleMaker.globals_cff import *
 process.load("MaterialStudy.PCNtupleMaker.globals_cff")
 
@@ -36,6 +50,8 @@ process.load("MaterialStudy.PCNtupleMaker.vertices_cff")
 
 from MaterialStudy.PCNtupleMaker.convs_cff import *
 process.load("MaterialStudy.PCNtupleMaker.convs_cff")
+
+
 
 #process.load("PhysicsTools.NanoAOD.nano_cff")
 
@@ -51,8 +67,8 @@ process.load("MaterialStudy.PCNtupleMaker.convs_cff")
 #process.Path = cms.Path(genParticleSequence+ genParticleTables + muonSequence + muonTables + muonMC +qTables + qMC )
 #process.Path = cms.Path( qTables )
 #process.Path = cms.Path( globalTables + vertexTables + convTables )
-process.Path = cms.Path(vertexTables * testseq)
-
+process.Path = cms.Path(genParticleSequence + genParticleTable + vertexTables * testseq)
+#process.Path = cms.Path(genParticleTable + vertexTables * testseq)
 
 #process.Path = cms.Path(process.nanoSequenceMC)
 #for data:

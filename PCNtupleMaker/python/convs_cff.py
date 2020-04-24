@@ -131,16 +131,38 @@ convTable = cms.EDProducer("SimpleConversionTableProducer",
 )
 
 
-c1tks = cms.EDProducer("convTrkProducer",
+c0tks = cms.EDProducer("convTrkProducer",
 	src = cms.InputTag("allConversions"),
 	trkCandIdx = cms.int32(0),
+)
+c1tks = cms.EDProducer("convTrkProducer",
+	src = cms.InputTag("allConversions"),
+	trkCandIdx = cms.int32(1),
+)
+
+from SimGeneral.HepPDTESSource.pythiapdt_cfi import *
+c0TrackCandidates = cms.EDProducer("ChargedCandidateProducer",
+    src = cms.InputTag("c0tks:convTrks"),
+    particleType = cms.string('e+')
+)
+
+Tk0Table = cms.EDProducer("SimpleCandidateFlatTableProducer",
+    src = cms.InputTag("c0TrackCandidates"),
+    #src = cms.InputTag("GenParticles"),
+    cut = cms.string(""), #we should not filter after pruning
+    name= cms.string("Tk0"),
+    doc = cms.string("conversion track idx 0 particles "),
+    singleton = cms.bool(False), # the number of entries is variable
+    extension = cms.bool(False), # this is the main table for the taus
+    variables = cms.PSet(
+         pt  = Var("pt",  float, precision=8),
+    )
 )
 
 
 #TODO MC MATCHING
-"""
 convMCMatchForTable = cms.EDProducer("MCMatcher",       # cut on deltaR, deltaPt/Pt; pick best by deltaR
-    src         = qTable.src,                         # final reco collection
+    src         = cms.InputTag("c0TrackCandidates"),                         # final reco collection
     matched     = cms.InputTag("finalGenParticles"),     # final mc-truth particle collection
     mcPdgId     = cms.vint32(13),               # one or more PDG ID (13 = mu); absolute values (see below)
     checkCharge = cms.bool(False),              # True = require RECO and MC objects to have the same charge
@@ -151,18 +173,25 @@ convMCMatchForTable = cms.EDProducer("MCMatcher",       # cut on deltaR, deltaPt
     resolveByMatchQuality = cms.bool(True),    # False = just match input in order; True = pick lowest deltaR pair first
 )
 
-qMCTable = cms.EDProducer("CandMCMatchTableProducer",
-    src     = qTable.src,
-    mcMap   = cms.InputTag("qMCMatchForTable"),
-    objName = qTable.name,
-    objType = cms.string("Other"),
+#convMCMatchForTable = cms.EDProducer("MCTruthDeltaRMatcher",
+#	src = cms.InputTag("c0tks"),
+#	distMin = cms.double(0.15),
+#	matchPDGId = cms.vint32(),
+#	matched = cms.InputTag("finalGenParticles"),
+#)
+
+c0MCTable = cms.EDProducer("CandMCMatchTableProducer",
+    src     = cms.InputTag("c0TrackCandidates"),
+    mcMap   = cms.InputTag("convMCMatchForTable"),
+    objName = cms.string("Tk0"),
+    objType = cms.string("Electron"),
     branchName = cms.string("genPart"),
     docString = cms.string("MC matching to status==1 qparts"),
 )
-"""
+
 
 
 #convTables = cms.Sequence( convs + convTable)
 convTables = cms.Sequence( convTable)
-#convTablesMC = cms.Sequence( convTable + convMCMatchForTable + qMCTable )
-testseq = cms.Sequence(convTable + c1tks) 
+#convTablesMC = cms.Sequence( convTable + convMCMatchForTable + qMCTable #)
+testseq = cms.Sequence(convTable + c0tks +  c0TrackCandidates+Tk0Table + convMCMatchForTable  +c0MCTable) 

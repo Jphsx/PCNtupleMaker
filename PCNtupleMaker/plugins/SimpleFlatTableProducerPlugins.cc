@@ -7,8 +7,12 @@ typedef SimpleFlatTableProducer<reco::Conversion> SimpleConversionTableProducer;
 #include "DataFormats/VertexReco/interface/Vertex.h"
 typedef SimpleFlatTableProducer<reco::Vertex> SimpleVertexTableProducer;
 
-//#include "DataFormats/Candidate/interface/Candidate.h"
-//typedef SimpleFlatTableProducer<reco::Candidate> SimpleCandidateFlatTableProducer;
+#include "DataFormats/Candidate/interface/Candidate.h"
+typedef SimpleFlatTableProducer<reco::Candidate> SimpleCandidateFlatTableProducer;
+
+#include "DataFormats/HepMCCandidate/interface/GenParticle.h"
+typedef SimpleFlatTableProducer<reco::GenParticle> SimpleGenParticleFlatTableProducer;
+
 
 //#include "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h"
 //typedef EventSingletonSimpleFlatTableProducer<GenEventInfoProduct> SimpleGenEventFlatTableProducer;
@@ -17,8 +21,10 @@ typedef SimpleFlatTableProducer<reco::Vertex> SimpleVertexTableProducer;
 //typedef EventSingletonSimpleFlatTableProducer<HTXS::HiggsClassification> SimpleHTXSFlatTableProducer;
 
 #include "FWCore/Framework/interface/MakerMacros.h"
-//DEFINE_FWK_MODULE(SimpleCandidateFlatTableProducer);
+DEFINE_FWK_MODULE(SimpleCandidateFlatTableProducer);
 //DEFINE_FWK_MODULE(SimpleGenEventFlatTableProducer);
 //EFINE_FWK_MODULE(SimpleHTXSFlatTableProducer);
 DEFINE_FWK_MODULE(SimpleConversionTableProducer);
 DEFINE_FWK_MODULE(SimpleVertexTableProducer);
+//DEFINE_FWK_MODULE(SimpleGenParticleTableProducer);
+
