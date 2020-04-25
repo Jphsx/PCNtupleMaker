@@ -2106,7 +2106,7 @@ process.vertexTables = cms.Sequence(process.pvCandidateTable)
 process.globalTables = cms.Sequence(process.rhoTable)
 
 
-process.testseq = cms.Sequence(process.convTable+process.c0tks+process.c0TrackCandidates+process.Tk0Table+process.convMCMatchForTable+process.c0MCTable)
+process.testseq = cms.Sequence(process.convTable)
 
 
 process.Path = cms.Path(process.vertexTables+process.convTables)

@@ -9,22 +9,22 @@ finalGenParticles = cms.EDProducer("GenParticlePruner",
     src = cms.InputTag("genParticles"),
     select = cms.vstring(
 	"drop *",
-        "keep++ abs(pdgId) == 15 & (pt > 15 ||  isPromptDecayed() )",#  keep full tau decay chain for some taus
+   #     "keep++ abs(pdgId) == 15 & (pt > 15 ||  isPromptDecayed() )",#  keep full tau decay chain for some taus
 	#"drop status==1 & pt < 1", #drop soft stable particle in tau decay
         "keep+ abs(pdgId) == 15 ",  #  keep first gen decay product for all tau
         "keep+ abs(pdgId) == 211 || abs(pdgId) == 111 ", #keep pions for mc matching
         #"+keep pdgId == 22 && status == 1 && (pt > 10 || isPromptFinalState())", # keep gamma above 10 GeV (or all prompt) and its first parent
         "+keep pdgId == 22",
 	"+keep abs(pdgId) == 11 || abs(pdgId) == 13 || abs(pdgId) == 15", #keep leptons, with at most one mother back in the history
-	"drop abs(pdgId)= 2212 && abs(pz) > 1000", #drop LHC protons accidentally added by previous keeps
-        "keep (400 < abs(pdgId) < 600) || (4000 < abs(pdgId) < 6000)", #keep all B and C hadrons
-        "keep abs(pdgId) == 12 || abs(pdgId) == 14 || abs(pdgId) == 16",   # keep neutrinos
-	"keep status == 3 || (status > 20 && status < 30)", #keep matrix element summary
-        "keep isHardProcess() ||  fromHardProcessDecayed()  || fromHardProcessFinalState() || (statusFlags().fromHardProcess() && statusFlags().isLastCopy())",  #keep event summary based on status flags
-	"keep  (status > 70 && status < 80 && pt > 15) ", # keep high pt partons right before hadronization
-        "keep abs(pdgId) == 23 || abs(pdgId) == 24 || abs(pdgId) == 25 || abs(pdgId) == 37 ",   # keep VIP(articles)s
+	#"drop abs(pdgId)= 2212 && abs(pz) > 1000", #drop LHC protons accidentally added by previous keeps
+        #"keep (400 < abs(pdgId) < 600) || (4000 < abs(pdgId) < 6000)", #keep all B and C hadrons
+        #"keep abs(pdgId) == 12 || abs(pdgId) == 14 || abs(pdgId) == 16",   # keep neutrinos
+	#"keep status == 3 || (status > 20 && status < 30)", #keep matrix element summary
+        #"keep isHardProcess() ||  fromHardProcessDecayed()  || fromHardProcessFinalState() || (statusFlags().fromHardProcess() && statusFlags().isLastCopy())",  #keep event summary based on status flags
+	#"keep  (status > 70 && status < 80 && pt > 15) ", # keep high pt partons right before hadronization
+        #"keep abs(pdgId) == 23 || abs(pdgId) == 24 || abs(pdgId) == 25 || abs(pdgId) == 37 ",   # keep VIP(articles)s
         #"keep abs(pdgId) == 310 && abs(eta) < 2.5 && pt > 1 ",                                                     # keep K0
-        "keep (1000001 <= abs(pdgId) <= 1000039 ) || ( 2000001 <= abs(pdgId) <= 2000015)", #keep SUSY fiction particles
+        #"keep (1000001 <= abs(pdgId) <= 1000039 ) || ( 2000001 <= abs(pdgId) <= 2000015)", #keep SUSY fiction particles
  		
    )
 )
@@ -34,8 +34,8 @@ finalGenParticles = cms.EDProducer("GenParticlePruner",
 ##################### Tables for final output and docs ##########################
 #genParticleTable = cms.EDProducer("SimpleGenParticleFlatTableProducer",
 genParticleTable = cms.EDProducer("SimpleCandidateFlatTableProducer",
-    src = cms.InputTag("finalGenParticles"),
-    #src = cms.InputTag("GenParticles"),
+    #src = cms.InputTag("finalGenParticles"),
+    src = cms.InputTag("genParticles"),
     cut = cms.string(""), #we should not filter after pruning
     name= cms.string("GenPart"),
     doc = cms.string("interesting gen particles "),
@@ -45,10 +45,21 @@ genParticleTable = cms.EDProducer("SimpleCandidateFlatTableProducer",
          pt  = Var("pt",  float, precision=8),
          phi = Var("phi", float,precision=8),
          eta  = Var("eta",  float,precision=8),
-         mass = Var("?mass>10 || (pdgId==22 && mass > 1) || abs(pdgId)==24 || pdgId==23 || abs(pdgId)>1000000?mass:0", float,precision="?(abs(pdgId)==6 && statusFlags().isLastCopy())?20:8",doc="Mass stored for all particles with mass > 10 GeV and photons with mass > 1 GeV, plus W/Z and BSM particles. For other particles you can lookup from PDGID"),
-         pdgId  = Var("pdgId()", int, doc="PDG id"),
-         status  = Var("status", int, doc="Particle status. 1=stable"),
-         genPartIdxMother = Var("?numberOfMothers>0?motherRef(0).key():-1", int, doc="index of the mother particle"),
+         #mass = Var("?mass>10 || (pdgId==22 && mass > 1) || abs(pdgId)==24 || pdgId==23 || abs(pdgId)>1000000?mass:0", float,precision="?(abs(pdgId)==6 && statusFlags().isLastCopy())?20:8",doc="Mass stored for all particles with mass > 10 GeV and photons with mass > 1 GeV, plus W/Z and BSM particles. For other particles you can lookup from PDGID"),
+        mass = Var("mass()",float,precision=8),  
+	pdgId  = Var("pdgId()", int, doc="PDG id"),
+        status  = Var("status", int, doc="Particle status. 1=stable"),
+        genPartIdxMother = Var("?numberOfMothers>0?motherRef(0).key():-1", int, doc="index of the mother particle"),
+	vtx_X = Var("vx()",float,doc="X position of gen particle"), 
+	vtx_Y = Var("vy()",float,doc="Y position of gen particle"),
+	vtx_Z = Var("vz()",float,doc="Z position of gen particle"),
+	nDaughter = Var("numberOfDaughters()",int,doc="number of daughters"),
+	daughter0Idx = Var("?numberOfDaughters>0?daughterRef(0).key():-1", int, doc="index of first daughter"),
+	daughter1Idx = Var("?numberOfDaughters>1?daughterRef(1).key():-1", int, doc="index of second daughter"),
+	daughter2Idx = Var("?numberOfDaughters>2?daughterRef(2).key():-1", int, doc="index of third daughter"),	
+	isConvertedPhoton = Var("isConvertedPhoton()",bool,  doc="photon conversion flag"),
+	
+	#assume 2 children, get daughter vtx of each 
          statusFlags = (Var(
             "statusFlags().isLastCopyBeforeFSR()                  * 16384 +"
             "statusFlags().isLastCopy()                           * 8192  +"

@@ -10,7 +10,7 @@ config.General.transferOutputs = True
 config.General.transferLogs = True
 config.JobType.allowUndistributedCMSSW = True
 
-config.JobType.outputFiles      = ['Run2018C.root']
+#config.JobType.outputFiles      = ['Run2018C.root']
 
 
 config.JobType.pluginName = 'Analysis'
@@ -25,9 +25,10 @@ config.Data.inputDBS = 'global'
 #config.Data.lumiMask = ' Cert_314472-325175_13TeV_17SeptEarlyReReco2018ABC_PromptEraD_Collisions18_JSON.txt
 
 
-#config.Data.splitting = 'EventAwareLumiBased'
-config.Data.splitting = 'LumiBased'
-config.Data.unitsPerJob = 500
+config.Data.splitting = 'EventAwareLumiBased'
+#config.Data.splitting = 'LumiBased'
+config.Data.unitsPerJob = 50000
+#config.Data.unitsPerJob = 50
 config.Data.outLFNDirBase = '/store/user/jsingera/DPG/PC/Run2018C'
 config.Data.publication = True
 config.Data.outputDatasetTag = 'DPG_SingleMuon2018C'

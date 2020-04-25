@@ -22,7 +22,8 @@
 
 // user include files
 #include "FWCore/Framework/interface/Frameworkfwd.h"
-#include "FWCore/Framework/interface/stream/EDProducer.h"
+//#include "FWCore/Framework/interface/stream/EDProducer.h"
+#include "FWCore/Framework/interface/EDProducer.h"
 
 #include "FWCore/Framework/interface/Event.h"
 #include "FWCore/Framework/interface/MakerMacros.h"
@@ -40,17 +41,26 @@
 // class declaration
 //
 
-class convTrkProducer : public edm::stream::EDProducer<> {
+//class convTrkProducer : public edm::stream::EDProducer<> {
+class convTrkProducer : public edm::EDProducer {
    public:
       explicit convTrkProducer(const edm::ParameterSet&);
       ~convTrkProducer();
 
-      static void fillDescriptions(edm::ConfigurationDescriptions& descriptions);
+     // static void fillDescriptions(edm::ConfigurationDescriptions& descriptions);
 
    private:
+
+     ///test remove 
+     /*
       virtual void beginStream(edm::StreamID) override;
       virtual void produce(edm::Event&, const edm::EventSetup&) override;
       virtual void endStream() override;
+     */
+
+      virtual void beginJob() ;
+      virtual void produce(edm::Event&, const edm::EventSetup&);
+      virtual void endJob() ;
 
       //virtual void beginRun(edm::Run const&, edm::EventSetup const&) override;
       //virtual void endRun(edm::Run const&, edm::EventSetup const&) override;
@@ -153,7 +163,8 @@ int i=0;
 //	for( trk = conv->tracks()->begin(); trk != conv->Tracks()->end(); ++trk){
 	//cTrack = convs->tracks()[trkCandIdx_];	
 	tracks->push_back(cTrack);
-	if(i==0) std::cout<<cTrack.pt()<<std::endl;
+	if(i==0) std::cout<<cTrack.pt()<<" "<<conv->EoverP()<<std::endl;
+	i++;
 
 //	}
 
@@ -167,13 +178,16 @@ int i=0;
 
 // ------------ method called once each stream before processing any runs, lumis or events  ------------
 void
-convTrkProducer::beginStream(edm::StreamID)
+//convTrkProducer::beginStream(edm::StreamID)
+convTrkProducer::beginJob()
 {
 }
 
 // ------------ method called once each stream after processing all runs, lumis and events  ------------
 void
-convTrkProducer::endStream() {
+//convTrkProducer::endStream() {
+convTrkProducer::endJob()
+{
 }
 
 // ------------ method called when starting to processes a run  ------------
@@ -209,7 +223,7 @@ convTrkProducer::endLuminosityBlock(edm::LuminosityBlock const&, edm::EventSetup
 */
  
 // ------------ method fills 'descriptions' with the allowed parameters for the module  ------------
-void
+/*void
 convTrkProducer::fillDescriptions(edm::ConfigurationDescriptions& descriptions) {
   //The following says we do not know what parameters are allowed so do no validation
   // Please change this to state exactly what you do use, even if it is no parameters
@@ -217,6 +231,6 @@ convTrkProducer::fillDescriptions(edm::ConfigurationDescriptions& descriptions) 
   desc.setUnknown();
   descriptions.addDefault(desc);
 }
-
+*/
 //define this as a plug-in
 DEFINE_FWK_MODULE(convTrkProducer);

@@ -194,4 +194,7 @@ c0MCTable = cms.EDProducer("CandMCMatchTableProducer",
 #convTables = cms.Sequence( convs + convTable)
 convTables = cms.Sequence( convTable)
 #convTablesMC = cms.Sequence( convTable + convMCMatchForTable + qMCTable #)
-testseq = cms.Sequence(convTable + c0tks +  c0TrackCandidates+Tk0Table + convMCMatchForTable  +c0MCTable) 
+#testseq = cms.Sequence(convTable + c0tks +  c0TrackCandidates+Tk0Table + convMCMatchForTable  +c0MCTable) 
+#testseq = cms.Sequence(c0tks + c0TrackCandidates + Tk0Table + convTable + convMCMatchForTable + c0MCTable)
+testseq = cms.Sequence(convTable)
+
