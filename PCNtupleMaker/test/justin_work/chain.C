@@ -1,10 +1,10 @@
 
-
+#include "data1.C"
 
 void chain(){
 std::string PATH = "/home/t3-ku/janguian/jsingera/DPG/PC/Run2018C/SingleMuon/DPG_SingleMuon2018C/200425_171633/0000/"; 
-std::vector<std::string> names{
-"defaultout_numEvent100_1.root" }; /*,    "defaultout_numEvent100_28.root ", "defaultout_numEvent100_46.root",   "defaultout_numEvent100_64.root",   "defaultout_numEvent100_82.root", 
+/*std::vector<std::string> names{
+"defaultout_numEvent100_1.root" ,    "defaultout_numEvent100_28.root ", "defaultout_numEvent100_46.root",   "defaultout_numEvent100_64.root",   "defaultout_numEvent100_82.root", 
 "defaultout_numEvent100_10.root",   "defaultout_numEvent100_280.root", "defaultout_numEvent100_460.root",  "defaultout_numEvent100_640.root",  "defaultout_numEvent100_820.root",
 "defaultout_numEvent100_100.root",  "defaultout_numEvent100_281.root", "defaultout_numEvent100_461.root" , "defaultout_numEvent100_641.root",  "defaultout_numEvent100_821.root",
 "defaultout_numEvent100_101.root",  "defaultout_numEvent100_282.root",  "defaultout_numEvent100_462.root",  "defaultout_numEvent100_642.root",  "defaultout_numEvent100_822.root",
@@ -14,9 +14,20 @@ std::vector<std::string> names{
 "defaultout_numEvent100_105.root",  "defaultout_numEvent100_286.root",  "defaultout_numEvent100_466.root",  "defaultout_numEvent100_646.root",  "defaultout_numEvent100_826.root"
 };*/
 
+
+data1* d1 = new data1();
+std::vector<std::string> names = d1->files;
+std::string path = d1->PATH;
+//std::cout<<d1->PATH<<std::endl;
+//for(int i=0; i<5; i++){
+//	std::cout<<names[i]<<std::endl;
+//}
+
+int MAXSIZE= names.size();
+//MAXSIZE = 1;
 TChain* c = new TChain("Events");
-for(int i=0; i<names.size(); i++){
-	c->AddFile( (PATH+names.at(i)).c_str() );
+for(int i=0; i<MAXSIZE; i++){
+	c->AddFile( (path+names.at(i)).c_str() );
 
 }
 

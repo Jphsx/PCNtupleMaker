@@ -33,4 +33,6 @@
 <use   name="SimTracker/TrackAssociation"/>
 <use   name="TrackingTools/IPTools"/>
 <use   name="DataFormats/NanoAOD"/>
+<use   name="SimDataFormats/Track"/>
+<use   name="SimDataFormats/Vertex"/>
 <flags EDM_PLUGIN="1"/>

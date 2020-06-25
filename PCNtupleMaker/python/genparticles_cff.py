@@ -58,6 +58,7 @@ genParticleTable = cms.EDProducer("SimpleCandidateFlatTableProducer",
 	daughter1Idx = Var("?numberOfDaughters>1?daughterRef(1).key():-1", int, doc="index of second daughter"),
 	daughter2Idx = Var("?numberOfDaughters>2?daughterRef(2).key():-1", int, doc="index of third daughter"),	
 	isConvertedPhoton = Var("isConvertedPhoton()",bool,  doc="photon conversion flag"),
+	TEST = Var("production_vertex().point3d().x()",float, doc="production x"),
 	
 	#assume 2 children, get daughter vtx of each 
          statusFlags = (Var(

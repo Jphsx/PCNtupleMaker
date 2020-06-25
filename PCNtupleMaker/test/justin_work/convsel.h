@@ -131,9 +131,31 @@ public :
    TTreeReaderArray<Float_t> PV_ndof = {fReader, "PV_ndof"};
    TTreeReaderArray<Float_t> PV_normalizedChi2 = {fReader, "PV_normalizedChi2"};
 
-   TH2D xyhist_25 = {"xyhist_25","xy;x [cm];y [cm]",500,-25.,25.,500,-25,25. };
-   TH2D xyhist_10 = {"xyhist_10","xy;x [cm];y [cm]",200,-10.,10.,200,-10.,10.};
+   TH2D xyhist_25 = {"xyhist_25","xy;x (cm);y [cm]",500,-25.,25.,500,-25,25. };
+   TH2D xyhist_10 = {"xyhist_10","xy;x (cm);y [cm]",200,-10.,10.,200,-10.,10.};
+   TH1D rhist_25 = {"rhist_25","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV10 ={"rhist_25_PV10","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV25 ={"rhist_25_PV25","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV40 = {"rhist_25_PV40","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+ 
+   TH2D xyhist_25_gst = {"xyhist_25_gst","xy;x (cm);y [cm]",500,-25.,25.,500,-25,25. };
+   TH2D xyhist_10_gst = {"xyhist_10_gst","xy;x (cm);y [cm]",200,-10.,10.,200,-10.,10.};
+   TH1D rhist_25_gst = {"rhist_25_gst","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV10_gst ={"rhist_25_PV10_gst","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV25_gst ={"rhist_25_PV25_gst","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV40_gst = {"rhist_25_PV40_gst","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+  
+   
+   TH2D xyhist_25_q1 = {"xyhist_25_q1","xy;x (cm);y [cm]",500,-25.,25.,500,-25,25. };
+   TH2D xyhist_10_q1 = {"xyhist_10_q1","xy;x (cm);y [cm]",200,-10.,10.,200,-10.,10.};
+   TH1D rhist_25_q1 = {"rhist_25_q1","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV10_q1 ={"rhist_25_PV10_q1","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV25_q1 ={"rhist_25_PV25_q1","r;R (cm);Conversion Vertices per mm",250,0.,25.};
+   TH1D rhist_25_PV40_q1 = {"rhist_25_PV40_q1","r;R (cm);Conversion Vertices per mm",250,0.,25.};
 
+
+   TH1D thetatest = {"ttest","test",50,-3.14,3.14};
+   TH1D phitest   = {"ptest","test",50,-3.14,3.14};
    convsel(TTree * /*tree*/ =0) { }
    virtual ~convsel() { }
    virtual Int_t   Version() const { return 2; }
@@ -171,7 +193,7 @@ void convsel::Init(TTree *tree)
 
 Bool_t convsel::Notify()
 {
-   // The Notify() function is called when a new file is opened. This
+   // The Notify() function is called wh400a new file is opened. This
    // can be either for a new TTree in a TChain or when when a new TTree
    // is started when using PROOF. It is normally not necessary to make changes
    // to the generated code, but the routine can be extended by the

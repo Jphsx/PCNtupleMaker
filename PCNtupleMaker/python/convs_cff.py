@@ -126,10 +126,36 @@ convTable = cms.EDProducer("SimpleConversionTableProducer",
 	Tk1_lost = Var("tracks().at(1).lost()", int, doc="numberof lost hits (invalid) on track, track index 1"),
         Tk1_quality = Var("tracks().at(1).qualityMask()", int, doc="track index 1 quality: undefQuality = -1, loose = 0, tight = 1, highPurity = 2, confirmed = 3 ( means found by more than one iteration), goodIterative = 4 ( meaningless ), looseSetWithPV = 5, highPuritySetWithPV = 6, discarded = 7 ( because a better track found. kept in the collection for reference....) "),
 	Tk1_algo = Var("tracks().at(1).algo()", int, doc="track index 1 algorithm: see https://github.com/cms-sw/cmssw/blob/master/DataFormats/TrackReco/interface/TrackBase.h for a list of algorithms"),	
+#	convVtxIdx = Var("vtxmatch:convVtxIdx",int, doc="index of nearest SimVertex"),
 
 	),
+	externalVariables = cms.PSet(
+		convVtxIdx = ExtVar( cms.InputTag("vtxmatch:convVtxIdx"),int,doc="index of nearest sim vertex"),
+		vtxdl = ExtVar( cms.InputTag("vtxmatch:vtxdl"),float,doc="distance between reco conversion and nearest sim vertex"),
+	),
+
 )
 
+# vtx matching #########################
+vtxmatch = cms.EDProducer("convVtxSimVtxMatcher",
+	src= cms.InputTag("allConversions"),
+	simsrc = cms.InputTag("g4SimHits"),
+)
+#this table doesnt work
+vtxidxtable = cms.EDProducer("SimpleIntTableProducer",
+	src= cms.InputTag("vtxmatch:convVtxIdx"),
+	cut= cms.string(""),
+	name = cms.string("TEST"),
+	doc = cms.string("doc"),
+	singleton = cms.bool(False),
+	extension = cms.bool(False),
+	variables = cms.PSet(
+		convVtxIdx = Var("convVtxIdx",int,doc="test"),
+				
+	)
+)
+
+############################
 
 c0tks = cms.EDProducer("convTrkProducer",
 	src = cms.InputTag("allConversions"),
@@ -192,7 +218,7 @@ c0MCTable = cms.EDProducer("CandMCMatchTableProducer",
 
 
 #convTables = cms.Sequence( convs + convTable)
-convTables = cms.Sequence( convTable)
+convTables = cms.Sequence( vtxmatch *  convTable)
 #convTablesMC = cms.Sequence( convTable + convMCMatchForTable + qMCTable #)
 #testseq = cms.Sequence(convTable + c0tks +  c0TrackCandidates+Tk0Table + convMCMatchForTable  +c0MCTable) 
 #testseq = cms.Sequence(c0tks + c0TrackCandidates + Tk0Table + convTable + convMCMatchForTable + c0MCTable)

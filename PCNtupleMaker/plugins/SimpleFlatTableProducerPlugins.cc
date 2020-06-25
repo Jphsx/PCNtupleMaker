@@ -13,6 +13,14 @@ typedef SimpleFlatTableProducer<reco::Candidate> SimpleCandidateFlatTableProduce
 #include "DataFormats/HepMCCandidate/interface/GenParticle.h"
 typedef SimpleFlatTableProducer<reco::GenParticle> SimpleGenParticleFlatTableProducer;
 
+#include "SimDataFormats/Track/interface/SimTrack.h"
+typedef SimpleFlatTableProducer<SimTrack> SimpleSimTrackFlatTableProducer;
+
+#include "SimDataFormats/Vertex/interface/SimVertex.h"
+typedef SimpleFlatTableProducer<SimVertex> SimpleSimVertexFlatTableProducer;
+
+typedef SimpleFlatTableProducer<int> SimpleIntTableProducer;
+
 
 //#include "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h"
 //typedef EventSingletonSimpleFlatTableProducer<GenEventInfoProduct> SimpleGenEventFlatTableProducer;
@@ -22,9 +30,12 @@ typedef SimpleFlatTableProducer<reco::GenParticle> SimpleGenParticleFlatTablePro
 
 #include "FWCore/Framework/interface/MakerMacros.h"
 DEFINE_FWK_MODULE(SimpleCandidateFlatTableProducer);
+DEFINE_FWK_MODULE(SimpleIntTableProducer);
 //DEFINE_FWK_MODULE(SimpleGenEventFlatTableProducer);
 //EFINE_FWK_MODULE(SimpleHTXSFlatTableProducer);
 DEFINE_FWK_MODULE(SimpleConversionTableProducer);
 DEFINE_FWK_MODULE(SimpleVertexTableProducer);
+DEFINE_FWK_MODULE(SimpleSimTrackFlatTableProducer);
+DEFINE_FWK_MODULE(SimpleSimVertexFlatTableProducer);
 //DEFINE_FWK_MODULE(SimpleGenParticleTableProducer);
 
