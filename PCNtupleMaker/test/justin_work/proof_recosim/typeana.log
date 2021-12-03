@@ -1,0 +1,2633 @@
+[0mroot [2] Events->Process("PCNtuple.C"[D[D[D[D[D[D[D[D[D[D[D[D[D[0m[38;5;83m[1m([0m"PCNtuple.C"[0m[38;5;83m[1m)[D[D[D[D[D[D[D[D[D[D[D[D[D[D[0m("PCNtuple.C");
+[0mEvent 764005
+simvtx 0 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.19531 ptid -1 ppdg -1
+child of vtx 0 pdg: 211 tid: 1
+child of vtx 0 pdg: 211 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: -211 tid: 5
+child of vtx 0 pdg: 211 tid: 6
+child of vtx 0 pdg: -211 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 211 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: 211 tid: 12
+child of vtx 0 pdg: -211 tid: 13
+child of vtx 0 pdg: 211 tid: 14
+child of vtx 0 pdg: -211 tid: 15
+child of vtx 0 pdg: 211 tid: 16
+child of vtx 0 pdg: 2112 tid: 17
+child of vtx 0 pdg: 310 tid: 18
+child of vtx 0 pdg: -211 tid: 19
+child of vtx 0 pdg: -211 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: 211 tid: 22
+child of vtx 0 pdg: 310 tid: 23
+child of vtx 0 pdg: 130 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: 130 tid: 27
+child of vtx 0 pdg: 130 tid: 28
+child of vtx 0 pdg: 211 tid: 29
+child of vtx 0 pdg: -211 tid: 30
+child of vtx 0 pdg: -211 tid: 31
+child of vtx 0 pdg: 130 tid: 32
+child of vtx 0 pdg: 22 tid: 34
+child of vtx 0 pdg: 11 tid: 35
+child of vtx 0 pdg: -11 tid: 36
+child of vtx 0 pdg: 22 tid: 41
+child of vtx 0 pdg: 22 tid: 42
+child of vtx 0 pdg: 321 tid: 43
+child of vtx 0 pdg: -321 tid: 44
+child of vtx 0 pdg: 22 tid: 45
+child of vtx 0 pdg: 22 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 48
+child of vtx 0 pdg: 22 tid: 49
+child of vtx 0 pdg: 22 tid: 54
+child of vtx 0 pdg: 22 tid: 55
+child of vtx 0 pdg: 22 tid: 56
+child of vtx 0 pdg: 22 tid: 57
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+child of vtx 0 pdg: 22 tid: 65
+child of vtx 0 pdg: 22 tid: 71
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+total approx E: 6425.05
+simvtx 1 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.19531 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 33
+total approx E: 11.4867
+simvtx 2 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.19531 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 37
+child of vtx 2 pdg: 22 tid: 38
+total approx E: 10.3783
+simvtx 3 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.19531 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 39
+child of vtx 3 pdg: 22 tid: 40
+child of vtx 3 pdg: 22 tid: 58
+child of vtx 3 pdg: 22 tid: 59
+total approx E: 21.0406
+simvtx 4 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.20312 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 50
+child of vtx 4 pdg: 22 tid: 51
+total approx E: 1373.66
+simvtx 5 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.19531 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 52
+child of vtx 5 pdg: 22 tid: 53
+total approx E: 839.766
+simvtx 6 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.1875 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 60
+child of vtx 6 pdg: 22 tid: 61
+total approx E: 587.173
+simvtx 7 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.19531 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 66
+child of vtx 7 pdg: 22 tid: 67
+child of vtx 7 pdg: 22 tid: 69
+child of vtx 7 pdg: 22 tid: 70
+total approx E: 29.6895
+simvtx 8 ptype 0 (x,y,z) -0.0246582 0.0705566 -3.19531 ptid -1 ppdg -1
+child of vtx 8 pdg: 22 tid: 68
+total approx E: 2.09302
+Event 764012
+simvtx 0 ptype 0 (x,y,z) -0.0240479 0.0683594 4.95312 ptid -1 ppdg -1
+child of vtx 0 pdg: 2112 tid: 1
+child of vtx 0 pdg: 3222 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: 211 tid: 5
+child of vtx 0 pdg: 3122 tid: 6
+child of vtx 0 pdg: -3312 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 211 tid: 10
+child of vtx 0 pdg: -3122 tid: 11
+child of vtx 0 pdg: 3122 tid: 12
+child of vtx 0 pdg: -211 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: -211 tid: 15
+child of vtx 0 pdg: -211 tid: 16
+child of vtx 0 pdg: 2212 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: -211 tid: 19
+child of vtx 0 pdg: 130 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: 22 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: 22 tid: 29
+child of vtx 0 pdg: 22 tid: 30
+child of vtx 0 pdg: 22 tid: 31
+child of vtx 0 pdg: 22 tid: 32
+child of vtx 0 pdg: 22 tid: 33
+child of vtx 0 pdg: 22 tid: 34
+total approx E: 10926.5
+simvtx 1 ptype 0 (x,y,z) -0.0240479 0.0683594 4.95312 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 22
+child of vtx 1 pdg: 22 tid: 23
+total approx E: 4.17098
+simvtx 2 ptype 0 (x,y,z) -0.0240479 0.0683594 4.95312 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 27
+child of vtx 2 pdg: 22 tid: 28
+total approx E: 28.2898
+simvtx 3 ptype 0 (x,y,z) -0.0239868 0.0683594 4.95312 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 35
+total approx E: 3.48516
+Event 764009
+simvtx 0 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.32031 ptid -1 ppdg -1
+child of vtx 0 pdg: -211 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: 2212 tid: 3
+child of vtx 0 pdg: -2112 tid: 4
+child of vtx 0 pdg: -211 tid: 5
+child of vtx 0 pdg: 321 tid: 6
+child of vtx 0 pdg: 211 tid: 7
+child of vtx 0 pdg: -211 tid: 8
+child of vtx 0 pdg: 321 tid: 9
+child of vtx 0 pdg: -321 tid: 10
+child of vtx 0 pdg: 211 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: -211 tid: 13
+child of vtx 0 pdg: 211 tid: 14
+child of vtx 0 pdg: -211 tid: 15
+child of vtx 0 pdg: 211 tid: 16
+child of vtx 0 pdg: 211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: 310 tid: 19
+child of vtx 0 pdg: -211 tid: 20
+child of vtx 0 pdg: 211 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: -321 tid: 23
+child of vtx 0 pdg: -211 tid: 24
+child of vtx 0 pdg: -2112 tid: 25
+child of vtx 0 pdg: 310 tid: 26
+child of vtx 0 pdg: 2212 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: 310 tid: 29
+child of vtx 0 pdg: -3122 tid: 30
+child of vtx 0 pdg: 211 tid: 31
+child of vtx 0 pdg: 211 tid: 32
+child of vtx 0 pdg: -211 tid: 33
+child of vtx 0 pdg: 211 tid: 34
+child of vtx 0 pdg: -211 tid: 35
+child of vtx 0 pdg: 211 tid: 36
+child of vtx 0 pdg: -211 tid: 37
+child of vtx 0 pdg: 211 tid: 38
+child of vtx 0 pdg: -211 tid: 39
+child of vtx 0 pdg: 2212 tid: 40
+child of vtx 0 pdg: 310 tid: 41
+child of vtx 0 pdg: 310 tid: 42
+child of vtx 0 pdg: 22 tid: 43
+child of vtx 0 pdg: 22 tid: 44
+child of vtx 0 pdg: 211 tid: 45
+child of vtx 0 pdg: -211 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 48
+child of vtx 0 pdg: -211 tid: 49
+child of vtx 0 pdg: 22 tid: 52
+child of vtx 0 pdg: 22 tid: 53
+child of vtx 0 pdg: 211 tid: 54
+child of vtx 0 pdg: -211 tid: 55
+child of vtx 0 pdg: 22 tid: 56
+child of vtx 0 pdg: 22 tid: 57
+child of vtx 0 pdg: 22 tid: 58
+child of vtx 0 pdg: 22 tid: 59
+child of vtx 0 pdg: 22 tid: 60
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+child of vtx 0 pdg: 22 tid: 65
+child of vtx 0 pdg: 22 tid: 67
+child of vtx 0 pdg: 22 tid: 68
+child of vtx 0 pdg: 22 tid: 69
+child of vtx 0 pdg: 22 tid: 70
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 22 tid: 76
+child of vtx 0 pdg: 22 tid: 77
+child of vtx 0 pdg: 22 tid: 78
+child of vtx 0 pdg: 211 tid: 82
+child of vtx 0 pdg: -211 tid: 83
+child of vtx 0 pdg: 22 tid: 84
+child of vtx 0 pdg: 22 tid: 86
+child of vtx 0 pdg: 22 tid: 87
+total approx E: 3812.29
+simvtx 1 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.30469 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 50
+child of vtx 1 pdg: 22 tid: 51
+total approx E: 982.688
+simvtx 2 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.3125 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 66
+total approx E: 1224.54
+simvtx 3 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.32812 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 71
+total approx E: 332.112
+simvtx 4 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.32031 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 79
+total approx E: 16.8363
+simvtx 5 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.30469 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 80
+total approx E: 369.051
+simvtx 6 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.3125 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 81
+total approx E: 80.773
+simvtx 7 ptype 0 (x,y,z) -0.0254517 0.0700684 -2.32031 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 85
+total approx E: 141.715
+Event 764007
+simvtx 0 ptype 0 (x,y,z) -0.0245972 0.0703125 3.4375 ptid -1 ppdg -1
+child of vtx 0 pdg: 2112 tid: 1
+child of vtx 0 pdg: 211 tid: 2
+child of vtx 0 pdg: -3112 tid: 3
+child of vtx 0 pdg: 211 tid: 4
+child of vtx 0 pdg: -211 tid: 5
+child of vtx 0 pdg: -321 tid: 6
+child of vtx 0 pdg: 211 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 211 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: 321 tid: 13
+child of vtx 0 pdg: -321 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: 2112 tid: 16
+child of vtx 0 pdg: -211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: 2112 tid: 20
+child of vtx 0 pdg: 211 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: -321 tid: 23
+child of vtx 0 pdg: 2212 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: 211 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: 310 tid: 29
+child of vtx 0 pdg: 211 tid: 30
+child of vtx 0 pdg: 321 tid: 31
+child of vtx 0 pdg: -211 tid: 32
+child of vtx 0 pdg: -211 tid: 33
+child of vtx 0 pdg: -211 tid: 34
+child of vtx 0 pdg: 211 tid: 35
+child of vtx 0 pdg: -211 tid: 36
+child of vtx 0 pdg: 211 tid: 37
+child of vtx 0 pdg: 130 tid: 38
+child of vtx 0 pdg: 2112 tid: 39
+child of vtx 0 pdg: -2112 tid: 40
+child of vtx 0 pdg: -211 tid: 41
+child of vtx 0 pdg: 211 tid: 42
+child of vtx 0 pdg: -2212 tid: 43
+child of vtx 0 pdg: -211 tid: 44
+child of vtx 0 pdg: 211 tid: 45
+child of vtx 0 pdg: 211 tid: 46
+child of vtx 0 pdg: -211 tid: 47
+child of vtx 0 pdg: 211 tid: 48
+child of vtx 0 pdg: -211 tid: 49
+child of vtx 0 pdg: -211 tid: 50
+child of vtx 0 pdg: 211 tid: 51
+child of vtx 0 pdg: -211 tid: 52
+child of vtx 0 pdg: 211 tid: 53
+child of vtx 0 pdg: -211 tid: 54
+child of vtx 0 pdg: 130 tid: 55
+child of vtx 0 pdg: 211 tid: 56
+child of vtx 0 pdg: 130 tid: 57
+child of vtx 0 pdg: 310 tid: 58
+child of vtx 0 pdg: 310 tid: 59
+child of vtx 0 pdg: 22 tid: 60
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 3122 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 211 tid: 64
+child of vtx 0 pdg: -211 tid: 65
+child of vtx 0 pdg: 22 tid: 66
+child of vtx 0 pdg: 22 tid: 67
+child of vtx 0 pdg: 211 tid: 70
+child of vtx 0 pdg: -211 tid: 71
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 22 tid: 76
+child of vtx 0 pdg: 22 tid: 77
+child of vtx 0 pdg: 22 tid: 80
+child of vtx 0 pdg: 22 tid: 81
+child of vtx 0 pdg: 22 tid: 82
+child of vtx 0 pdg: 22 tid: 83
+child of vtx 0 pdg: 22 tid: 86
+child of vtx 0 pdg: 22 tid: 87
+child of vtx 0 pdg: 22 tid: 88
+child of vtx 0 pdg: 22 tid: 89
+child of vtx 0 pdg: 22 tid: 90
+child of vtx 0 pdg: 22 tid: 91
+child of vtx 0 pdg: 22 tid: 92
+child of vtx 0 pdg: 22 tid: 93
+child of vtx 0 pdg: 211 tid: 95
+child of vtx 0 pdg: -211 tid: 96
+child of vtx 0 pdg: 22 tid: 100
+child of vtx 0 pdg: 22 tid: 101
+child of vtx 0 pdg: 22 tid: 102
+child of vtx 0 pdg: 22 tid: 103
+child of vtx 0 pdg: 22 tid: 104
+child of vtx 0 pdg: 22 tid: 105
+child of vtx 0 pdg: 22 tid: 106
+child of vtx 0 pdg: 22 tid: 107
+child of vtx 0 pdg: 22 tid: 110
+child of vtx 0 pdg: 22 tid: 111
+child of vtx 0 pdg: 22 tid: 112
+child of vtx 0 pdg: 22 tid: 113
+child of vtx 0 pdg: 22 tid: 114
+child of vtx 0 pdg: 22 tid: 115
+child of vtx 0 pdg: 22 tid: 116
+child of vtx 0 pdg: 22 tid: 117
+child of vtx 0 pdg: 22 tid: 118
+child of vtx 0 pdg: 22 tid: 119
+child of vtx 0 pdg: 22 tid: 120
+child of vtx 0 pdg: 22 tid: 121
+child of vtx 0 pdg: 22 tid: 122
+child of vtx 0 pdg: 22 tid: 123
+child of vtx 0 pdg: 22 tid: 124
+child of vtx 0 pdg: 22 tid: 125
+child of vtx 0 pdg: 22 tid: 126
+child of vtx 0 pdg: 22 tid: 127
+child of vtx 0 pdg: 22 tid: 128
+total approx E: 8834.86
+simvtx 1 ptype 0 (x,y,z) -0.0245972 0.0703125 3.4375 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 68
+child of vtx 1 pdg: 22 tid: 69
+total approx E: 26.9412
+simvtx 2 ptype 0 (x,y,z) -0.0245972 0.0703125 3.4375 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 78
+child of vtx 2 pdg: 22 tid: 79
+total approx E: 18.2836
+simvtx 3 ptype 0 (x,y,z) -0.0246582 0.0700684 3.4375 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 84
+child of vtx 3 pdg: 22 tid: 85
+total approx E: 1.55543
+simvtx 4 ptype 0 (x,y,z) -0.0245972 0.0703125 3.4375 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 94
+total approx E: 9.3097
+simvtx 5 ptype 0 (x,y,z) -0.0245972 0.0703125 3.4375 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 97
+child of vtx 5 pdg: 22 tid: 98
+total approx E: 6.94983
+simvtx 6 ptype 0 (x,y,z) -0.0245972 0.0703125 3.4375 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 99
+total approx E: 10.0408
+simvtx 7 ptype 0 (x,y,z) -0.0245972 0.0703125 3.4375 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 108
+child of vtx 7 pdg: 22 tid: 109
+total approx E: 20.5496
+Event 764010
+simvtx 0 ptype 0 (x,y,z) -0.0259399 0.0712891 -1.09766 ptid -1 ppdg -1
+child of vtx 0 pdg: 211 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: 2112 tid: 3
+child of vtx 0 pdg: 211 tid: 4
+child of vtx 0 pdg: -211 tid: 5
+child of vtx 0 pdg: 321 tid: 6
+child of vtx 0 pdg: 211 tid: 7
+child of vtx 0 pdg: -211 tid: 8
+child of vtx 0 pdg: 2112 tid: 9
+child of vtx 0 pdg: 130 tid: 10
+child of vtx 0 pdg: 211 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: -211 tid: 13
+child of vtx 0 pdg: 211 tid: 14
+child of vtx 0 pdg: -2112 tid: 15
+child of vtx 0 pdg: 211 tid: 16
+child of vtx 0 pdg: -211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: -211 tid: 19
+child of vtx 0 pdg: -211 tid: 20
+child of vtx 0 pdg: 211 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: 211 tid: 23
+child of vtx 0 pdg: 310 tid: 24
+child of vtx 0 pdg: 310 tid: 25
+child of vtx 0 pdg: 22 tid: 26
+child of vtx 0 pdg: 211 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: -3122 tid: 29
+child of vtx 0 pdg: 22 tid: 30
+child of vtx 0 pdg: 22 tid: 31
+child of vtx 0 pdg: 22 tid: 32
+child of vtx 0 pdg: 211 tid: 33
+child of vtx 0 pdg: -211 tid: 34
+child of vtx 0 pdg: 211 tid: 35
+child of vtx 0 pdg: -211 tid: 36
+child of vtx 0 pdg: 211 tid: 37
+child of vtx 0 pdg: -211 tid: 38
+child of vtx 0 pdg: 22 tid: 39
+child of vtx 0 pdg: 22 tid: 40
+child of vtx 0 pdg: 22 tid: 41
+child of vtx 0 pdg: 22 tid: 42
+child of vtx 0 pdg: 22 tid: 43
+child of vtx 0 pdg: 211 tid: 44
+child of vtx 0 pdg: -211 tid: 45
+child of vtx 0 pdg: 22 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 48
+child of vtx 0 pdg: 22 tid: 49
+child of vtx 0 pdg: 22 tid: 50
+child of vtx 0 pdg: 22 tid: 51
+child of vtx 0 pdg: 22 tid: 52
+child of vtx 0 pdg: 22 tid: 53
+child of vtx 0 pdg: 22 tid: 54
+child of vtx 0 pdg: 22 tid: 55
+child of vtx 0 pdg: 22 tid: 56
+child of vtx 0 pdg: 22 tid: 59
+child of vtx 0 pdg: 22 tid: 60
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+child of vtx 0 pdg: 22 tid: 65
+child of vtx 0 pdg: 22 tid: 66
+child of vtx 0 pdg: 22 tid: 67
+child of vtx 0 pdg: 22 tid: 68
+child of vtx 0 pdg: 22 tid: 69
+child of vtx 0 pdg: 22 tid: 70
+total approx E: 9305.06
+simvtx 1 ptype 0 (x,y,z) -0.0259399 0.0712891 -1.09766 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 57
+child of vtx 1 pdg: 22 tid: 58
+total approx E: 10.7595
+simvtx 2 ptype 0 (x,y,z) -0.0258789 0.0712891 -1.10156 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 71
+total approx E: 1.50742
+Event 764004
+simvtx 0 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 0 pdg: 2212 tid: 1
+child of vtx 0 pdg: -3222 tid: 2
+child of vtx 0 pdg: -211 tid: 3
+child of vtx 0 pdg: 2212 tid: 4
+child of vtx 0 pdg: -2212 tid: 5
+child of vtx 0 pdg: 211 tid: 6
+child of vtx 0 pdg: -211 tid: 7
+child of vtx 0 pdg: 2212 tid: 8
+child of vtx 0 pdg: 321 tid: 9
+child of vtx 0 pdg: 211 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: -321 tid: 12
+child of vtx 0 pdg: 321 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: -211 tid: 15
+child of vtx 0 pdg: 211 tid: 16
+child of vtx 0 pdg: -211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: 2112 tid: 21
+child of vtx 0 pdg: -2112 tid: 22
+child of vtx 0 pdg: 2112 tid: 23
+child of vtx 0 pdg: -2212 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: 211 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: 211 tid: 29
+child of vtx 0 pdg: 3112 tid: 30
+child of vtx 0 pdg: -3312 tid: 31
+child of vtx 0 pdg: -211 tid: 32
+child of vtx 0 pdg: 321 tid: 33
+child of vtx 0 pdg: -211 tid: 34
+child of vtx 0 pdg: 211 tid: 35
+child of vtx 0 pdg: 211 tid: 36
+child of vtx 0 pdg: -211 tid: 37
+child of vtx 0 pdg: 211 tid: 38
+child of vtx 0 pdg: 321 tid: 39
+child of vtx 0 pdg: 211 tid: 40
+child of vtx 0 pdg: 2112 tid: 41
+child of vtx 0 pdg: 211 tid: 42
+child of vtx 0 pdg: -211 tid: 43
+child of vtx 0 pdg: 211 tid: 44
+child of vtx 0 pdg: 211 tid: 45
+child of vtx 0 pdg: 211 tid: 46
+child of vtx 0 pdg: -211 tid: 47
+child of vtx 0 pdg: 211 tid: 48
+child of vtx 0 pdg: -211 tid: 49
+child of vtx 0 pdg: 130 tid: 50
+child of vtx 0 pdg: 321 tid: 51
+child of vtx 0 pdg: 130 tid: 52
+child of vtx 0 pdg: 211 tid: 53
+child of vtx 0 pdg: -211 tid: 54
+child of vtx 0 pdg: 211 tid: 55
+child of vtx 0 pdg: -2212 tid: 56
+child of vtx 0 pdg: -211 tid: 57
+child of vtx 0 pdg: 211 tid: 58
+child of vtx 0 pdg: -211 tid: 59
+child of vtx 0 pdg: 211 tid: 60
+child of vtx 0 pdg: -211 tid: 61
+child of vtx 0 pdg: 211 tid: 62
+child of vtx 0 pdg: 130 tid: 63
+child of vtx 0 pdg: 211 tid: 64
+child of vtx 0 pdg: -321 tid: 65
+child of vtx 0 pdg: 211 tid: 66
+child of vtx 0 pdg: 310 tid: 67
+child of vtx 0 pdg: -211 tid: 68
+child of vtx 0 pdg: 211 tid: 69
+child of vtx 0 pdg: -211 tid: 70
+child of vtx 0 pdg: -211 tid: 71
+child of vtx 0 pdg: 3122 tid: 72
+child of vtx 0 pdg: -211 tid: 73
+child of vtx 0 pdg: -2112 tid: 74
+child of vtx 0 pdg: 2212 tid: 75
+child of vtx 0 pdg: 211 tid: 76
+child of vtx 0 pdg: 310 tid: 77
+child of vtx 0 pdg: 22 tid: 78
+child of vtx 0 pdg: 211 tid: 79
+child of vtx 0 pdg: -211 tid: 80
+child of vtx 0 pdg: 3122 tid: 81
+child of vtx 0 pdg: 22 tid: 82
+child of vtx 0 pdg: 211 tid: 83
+child of vtx 0 pdg: -211 tid: 84
+child of vtx 0 pdg: 22 tid: 85
+child of vtx 0 pdg: 22 tid: 86
+child of vtx 0 pdg: 211 tid: 87
+child of vtx 0 pdg: -211 tid: 88
+child of vtx 0 pdg: 22 tid: 89
+child of vtx 0 pdg: 22 tid: 90
+child of vtx 0 pdg: 22 tid: 91
+child of vtx 0 pdg: 211 tid: 92
+child of vtx 0 pdg: -211 tid: 93
+child of vtx 0 pdg: 211 tid: 94
+child of vtx 0 pdg: -211 tid: 95
+child of vtx 0 pdg: 22 tid: 96
+child of vtx 0 pdg: 22 tid: 97
+child of vtx 0 pdg: -211 tid: 98
+child of vtx 0 pdg: 211 tid: 99
+child of vtx 0 pdg: -211 tid: 100
+child of vtx 0 pdg: 211 tid: 101
+child of vtx 0 pdg: -211 tid: 102
+child of vtx 0 pdg: 22 tid: 103
+child of vtx 0 pdg: 22 tid: 104
+child of vtx 0 pdg: 211 tid: 105
+child of vtx 0 pdg: -211 tid: 106
+child of vtx 0 pdg: 22 tid: 107
+child of vtx 0 pdg: 22 tid: 108
+child of vtx 0 pdg: 211 tid: 109
+child of vtx 0 pdg: -211 tid: 110
+child of vtx 0 pdg: 22 tid: 111
+child of vtx 0 pdg: 211 tid: 112
+child of vtx 0 pdg: -211 tid: 113
+child of vtx 0 pdg: 22 tid: 116
+child of vtx 0 pdg: 22 tid: 117
+child of vtx 0 pdg: 22 tid: 118
+child of vtx 0 pdg: 211 tid: 119
+child of vtx 0 pdg: -211 tid: 120
+child of vtx 0 pdg: 211 tid: 121
+child of vtx 0 pdg: -211 tid: 122
+child of vtx 0 pdg: 22 tid: 127
+child of vtx 0 pdg: 22 tid: 128
+child of vtx 0 pdg: 211 tid: 129
+child of vtx 0 pdg: -211 tid: 130
+child of vtx 0 pdg: 211 tid: 131
+child of vtx 0 pdg: -211 tid: 132
+child of vtx 0 pdg: 22 tid: 133
+child of vtx 0 pdg: 22 tid: 134
+child of vtx 0 pdg: 22 tid: 135
+child of vtx 0 pdg: 22 tid: 136
+child of vtx 0 pdg: 22 tid: 137
+child of vtx 0 pdg: 22 tid: 138
+child of vtx 0 pdg: 22 tid: 139
+child of vtx 0 pdg: 22 tid: 140
+child of vtx 0 pdg: 22 tid: 141
+child of vtx 0 pdg: 22 tid: 142
+child of vtx 0 pdg: 22 tid: 143
+child of vtx 0 pdg: 22 tid: 144
+child of vtx 0 pdg: 22 tid: 145
+child of vtx 0 pdg: 22 tid: 146
+child of vtx 0 pdg: 22 tid: 147
+child of vtx 0 pdg: 22 tid: 148
+child of vtx 0 pdg: 22 tid: 152
+child of vtx 0 pdg: 22 tid: 153
+child of vtx 0 pdg: 22 tid: 154
+child of vtx 0 pdg: 22 tid: 155
+child of vtx 0 pdg: 22 tid: 156
+child of vtx 0 pdg: 22 tid: 157
+child of vtx 0 pdg: 22 tid: 158
+child of vtx 0 pdg: 22 tid: 159
+child of vtx 0 pdg: 22 tid: 160
+child of vtx 0 pdg: 22 tid: 161
+child of vtx 0 pdg: 22 tid: 162
+child of vtx 0 pdg: 22 tid: 163
+child of vtx 0 pdg: 22 tid: 164
+child of vtx 0 pdg: 22 tid: 165
+child of vtx 0 pdg: 22 tid: 166
+child of vtx 0 pdg: 22 tid: 167
+child of vtx 0 pdg: 22 tid: 171
+child of vtx 0 pdg: 22 tid: 172
+child of vtx 0 pdg: 22 tid: 174
+child of vtx 0 pdg: 22 tid: 175
+child of vtx 0 pdg: 22 tid: 180
+child of vtx 0 pdg: 22 tid: 181
+total approx E: 6724.35
+simvtx 1 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 114
+child of vtx 1 pdg: 22 tid: 115
+child of vtx 1 pdg: 22 tid: 149
+child of vtx 1 pdg: 22 tid: 182
+child of vtx 1 pdg: 22 tid: 183
+total approx E: 65.4799
+simvtx 2 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 123
+child of vtx 2 pdg: 22 tid: 124
+child of vtx 2 pdg: 22 tid: 150
+child of vtx 2 pdg: 22 tid: 151
+total approx E: 59.0555
+simvtx 3 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 125
+child of vtx 3 pdg: 22 tid: 126
+child of vtx 3 pdg: 22 tid: 176
+child of vtx 3 pdg: 22 tid: 177
+total approx E: 34.7361
+simvtx 4 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 168
+total approx E: 4.53631
+simvtx 5 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 169
+child of vtx 5 pdg: 22 tid: 170
+total approx E: 7.03781
+simvtx 6 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 173
+total approx E: 1.44228
+simvtx 7 ptype 0 (x,y,z) -0.0249634 0.0693359 4.5 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 178
+total approx E: 259.741
+simvtx 8 ptype 0 (x,y,z) -0.0249634 0.0693359 4.48438 ptid -1 ppdg -1
+child of vtx 8 pdg: 22 tid: 179
+total approx E: 188.844
+Event 764006
+simvtx 0 ptype 0 (x,y,z) -0.0249023 0.0686035 1.58984 ptid -1 ppdg -1
+child of vtx 0 pdg: 2212 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: 3122 tid: 3
+child of vtx 0 pdg: 321 tid: 4
+child of vtx 0 pdg: 211 tid: 5
+child of vtx 0 pdg: -211 tid: 6
+child of vtx 0 pdg: 3122 tid: 7
+child of vtx 0 pdg: -211 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 321 tid: 10
+child of vtx 0 pdg: 211 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: 211 tid: 13
+child of vtx 0 pdg: 211 tid: 14
+child of vtx 0 pdg: -211 tid: 15
+child of vtx 0 pdg: 130 tid: 16
+child of vtx 0 pdg: 211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: 310 tid: 21
+child of vtx 0 pdg: -321 tid: 22
+child of vtx 0 pdg: 211 tid: 23
+child of vtx 0 pdg: 130 tid: 24
+child of vtx 0 pdg: 130 tid: 25
+child of vtx 0 pdg: 310 tid: 26
+child of vtx 0 pdg: 130 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: 211 tid: 29
+child of vtx 0 pdg: 211 tid: 30
+child of vtx 0 pdg: -211 tid: 31
+child of vtx 0 pdg: 310 tid: 32
+child of vtx 0 pdg: 211 tid: 33
+child of vtx 0 pdg: -211 tid: 34
+child of vtx 0 pdg: 130 tid: 35
+child of vtx 0 pdg: 130 tid: 36
+child of vtx 0 pdg: 22 tid: 37
+child of vtx 0 pdg: 22 tid: 38
+child of vtx 0 pdg: 211 tid: 39
+child of vtx 0 pdg: -211 tid: 40
+child of vtx 0 pdg: 22 tid: 41
+child of vtx 0 pdg: 22 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: -3122 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 50
+child of vtx 0 pdg: 22 tid: 51
+child of vtx 0 pdg: 130 tid: 52
+child of vtx 0 pdg: 310 tid: 53
+child of vtx 0 pdg: 211 tid: 54
+child of vtx 0 pdg: -211 tid: 55
+child of vtx 0 pdg: 22 tid: 56
+child of vtx 0 pdg: 22 tid: 57
+child of vtx 0 pdg: 22 tid: 58
+child of vtx 0 pdg: 22 tid: 59
+child of vtx 0 pdg: 22 tid: 60
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+child of vtx 0 pdg: 22 tid: 65
+child of vtx 0 pdg: 22 tid: 66
+child of vtx 0 pdg: 22 tid: 67
+child of vtx 0 pdg: 22 tid: 68
+child of vtx 0 pdg: 22 tid: 69
+child of vtx 0 pdg: 22 tid: 70
+child of vtx 0 pdg: 22 tid: 71
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 22 tid: 76
+child of vtx 0 pdg: 22 tid: 77
+total approx E: 8691.42
+simvtx 1 ptype 0 (x,y,z) -0.0249023 0.0686035 1.58984 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 44
+child of vtx 1 pdg: 22 tid: 45
+child of vtx 1 pdg: 22 tid: 79
+child of vtx 1 pdg: 22 tid: 80
+child of vtx 1 pdg: 22 tid: 81
+child of vtx 1 pdg: 22 tid: 82
+total approx E: 34.3255
+simvtx 2 ptype 0 (x,y,z) -0.0249023 0.0686035 1.58984 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 48
+child of vtx 2 pdg: 22 tid: 49
+total approx E: 5.9247
+simvtx 3 ptype 0 (x,y,z) -0.0249023 0.0686035 1.58984 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 78
+total approx E: 7.62103
+Event 764001
+simvtx 0 ptype 0 (x,y,z) -0.024231 0.0690918 -2.625 ptid -1 ppdg -1
+child of vtx 0 pdg: -211 tid: 1
+child of vtx 0 pdg: 211 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: 211 tid: 5
+child of vtx 0 pdg: 2212 tid: 6
+child of vtx 0 pdg: -2212 tid: 7
+child of vtx 0 pdg: -211 tid: 8
+child of vtx 0 pdg: 2112 tid: 9
+child of vtx 0 pdg: 211 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: 2212 tid: 12
+child of vtx 0 pdg: -3122 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: 2112 tid: 16
+child of vtx 0 pdg: -2212 tid: 17
+child of vtx 0 pdg: -211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: 211 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: 211 tid: 23
+child of vtx 0 pdg: -211 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: 2212 tid: 26
+child of vtx 0 pdg: -2112 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: -321 tid: 29
+child of vtx 0 pdg: 211 tid: 30
+child of vtx 0 pdg: 2212 tid: 31
+child of vtx 0 pdg: 211 tid: 32
+child of vtx 0 pdg: 211 tid: 33
+child of vtx 0 pdg: 211 tid: 34
+child of vtx 0 pdg: -211 tid: 35
+child of vtx 0 pdg: 321 tid: 36
+child of vtx 0 pdg: -211 tid: 37
+child of vtx 0 pdg: -211 tid: 38
+child of vtx 0 pdg: 211 tid: 39
+child of vtx 0 pdg: 310 tid: 40
+child of vtx 0 pdg: 310 tid: 41
+child of vtx 0 pdg: -211 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: 211 tid: 44
+child of vtx 0 pdg: 211 tid: 45
+child of vtx 0 pdg: 211 tid: 46
+child of vtx 0 pdg: 211 tid: 47
+child of vtx 0 pdg: -211 tid: 48
+child of vtx 0 pdg: 2212 tid: 49
+child of vtx 0 pdg: -2212 tid: 50
+child of vtx 0 pdg: -211 tid: 51
+child of vtx 0 pdg: 211 tid: 52
+child of vtx 0 pdg: -211 tid: 53
+child of vtx 0 pdg: 211 tid: 54
+child of vtx 0 pdg: -211 tid: 55
+child of vtx 0 pdg: 211 tid: 56
+child of vtx 0 pdg: -211 tid: 57
+child of vtx 0 pdg: -211 tid: 58
+child of vtx 0 pdg: 211 tid: 59
+child of vtx 0 pdg: -211 tid: 60
+child of vtx 0 pdg: 211 tid: 61
+child of vtx 0 pdg: 211 tid: 62
+child of vtx 0 pdg: 130 tid: 63
+child of vtx 0 pdg: 310 tid: 64
+child of vtx 0 pdg: 310 tid: 65
+child of vtx 0 pdg: 22 tid: 68
+child of vtx 0 pdg: 22 tid: 69
+child of vtx 0 pdg: 211 tid: 70
+child of vtx 0 pdg: -211 tid: 71
+child of vtx 0 pdg: 22 tid: 77
+child of vtx 0 pdg: 22 tid: 78
+child of vtx 0 pdg: 211 tid: 81
+child of vtx 0 pdg: -211 tid: 82
+child of vtx 0 pdg: 211 tid: 83
+child of vtx 0 pdg: -211 tid: 84
+child of vtx 0 pdg: 22 tid: 85
+child of vtx 0 pdg: 22 tid: 86
+child of vtx 0 pdg: 22 tid: 87
+child of vtx 0 pdg: 22 tid: 88
+child of vtx 0 pdg: 22 tid: 89
+child of vtx 0 pdg: 22 tid: 90
+child of vtx 0 pdg: 22 tid: 91
+child of vtx 0 pdg: 22 tid: 92
+child of vtx 0 pdg: 211 tid: 97
+child of vtx 0 pdg: -211 tid: 98
+child of vtx 0 pdg: 22 tid: 100
+child of vtx 0 pdg: 22 tid: 101
+child of vtx 0 pdg: 22 tid: 102
+child of vtx 0 pdg: 22 tid: 103
+child of vtx 0 pdg: 22 tid: 104
+child of vtx 0 pdg: 22 tid: 109
+child of vtx 0 pdg: 22 tid: 110
+child of vtx 0 pdg: 22 tid: 111
+child of vtx 0 pdg: 22 tid: 112
+child of vtx 0 pdg: 22 tid: 113
+child of vtx 0 pdg: 22 tid: 114
+child of vtx 0 pdg: 22 tid: 115
+child of vtx 0 pdg: 22 tid: 116
+child of vtx 0 pdg: 22 tid: 117
+child of vtx 0 pdg: 22 tid: 118
+child of vtx 0 pdg: 22 tid: 119
+child of vtx 0 pdg: 22 tid: 120
+child of vtx 0 pdg: 22 tid: 121
+child of vtx 0 pdg: 22 tid: 122
+child of vtx 0 pdg: 22 tid: 123
+child of vtx 0 pdg: 22 tid: 124
+child of vtx 0 pdg: 22 tid: 125
+child of vtx 0 pdg: 22 tid: 126
+child of vtx 0 pdg: 22 tid: 127
+child of vtx 0 pdg: 22 tid: 129
+child of vtx 0 pdg: 22 tid: 130
+child of vtx 0 pdg: 22 tid: 131
+child of vtx 0 pdg: 22 tid: 132
+child of vtx 0 pdg: 22 tid: 133
+child of vtx 0 pdg: 22 tid: 134
+child of vtx 0 pdg: 22 tid: 137
+child of vtx 0 pdg: 22 tid: 138
+child of vtx 0 pdg: 22 tid: 139
+child of vtx 0 pdg: 22 tid: 140
+child of vtx 0 pdg: 22 tid: 141
+child of vtx 0 pdg: 22 tid: 142
+child of vtx 0 pdg: 22 tid: 143
+child of vtx 0 pdg: 22 tid: 144
+child of vtx 0 pdg: 22 tid: 145
+child of vtx 0 pdg: 22 tid: 146
+child of vtx 0 pdg: 22 tid: 147
+child of vtx 0 pdg: 22 tid: 148
+child of vtx 0 pdg: 22 tid: 149
+child of vtx 0 pdg: 22 tid: 150
+child of vtx 0 pdg: 22 tid: 151
+child of vtx 0 pdg: 22 tid: 152
+total approx E: 8012.83
+simvtx 1 ptype 0 (x,y,z) -0.024231 0.0690918 -2.625 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 66
+child of vtx 1 pdg: 22 tid: 67
+child of vtx 1 pdg: 22 tid: 72
+child of vtx 1 pdg: 22 tid: 73
+child of vtx 1 pdg: 22 tid: 135
+child of vtx 1 pdg: 22 tid: 136
+total approx E: 23.0026
+simvtx 2 ptype 0 (x,y,z) -0.024231 0.0690918 -2.63281 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 74
+total approx E: 69.7453
+simvtx 3 ptype 0 (x,y,z) -0.024292 0.0690918 -2.6875 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 75
+child of vtx 3 pdg: 22 tid: 76
+total approx E: 1459.35
+simvtx 4 ptype 0 (x,y,z) -0.024292 0.0690918 -2.63281 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 79
+child of vtx 4 pdg: 22 tid: 80
+child of vtx 4 pdg: 22 tid: 107
+child of vtx 4 pdg: 22 tid: 108
+total approx E: 108.29
+simvtx 5 ptype 0 (x,y,z) -0.024231 0.0690918 -2.625 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 93
+child of vtx 5 pdg: 22 tid: 94
+total approx E: 9.10159
+simvtx 6 ptype 0 (x,y,z) -0.024292 0.0690918 -2.625 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 95
+child of vtx 6 pdg: 22 tid: 96
+child of vtx 6 pdg: 22 tid: 105
+child of vtx 6 pdg: 22 tid: 106
+total approx E: 23.6449
+simvtx 7 ptype 0 (x,y,z) -0.024231 0.0690918 -2.625 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 99
+total approx E: 17.3082
+simvtx 8 ptype 0 (x,y,z) -0.024292 0.0690918 -2.60938 ptid -1 ppdg -1
+child of vtx 8 pdg: 22 tid: 128
+total approx E: 280.773
+simvtx 9 ptype 0 (x,y,z) -0.024231 0.0690918 -2.625 ptid -1 ppdg -1
+child of vtx 9 pdg: 22 tid: 153
+child of vtx 9 pdg: 22 tid: 154
+total approx E: 3.66042
+Event 764014
+simvtx 0 ptype 0 (x,y,z) -0.0258789 0.0690918 1.92969 ptid -1 ppdg -1
+child of vtx 0 pdg: 211 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: 2212 tid: 5
+child of vtx 0 pdg: -2112 tid: 6
+child of vtx 0 pdg: -2212 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: 211 tid: 9
+child of vtx 0 pdg: -211 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: 211 tid: 12
+child of vtx 0 pdg: 2212 tid: 13
+child of vtx 0 pdg: -2112 tid: 14
+child of vtx 0 pdg: 130 tid: 15
+child of vtx 0 pdg: 3122 tid: 16
+child of vtx 0 pdg: 211 tid: 17
+child of vtx 0 pdg: 2112 tid: 18
+child of vtx 0 pdg: -2112 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: 211 tid: 22
+child of vtx 0 pdg: -211 tid: 23
+child of vtx 0 pdg: 211 tid: 24
+child of vtx 0 pdg: -211 tid: 25
+child of vtx 0 pdg: 211 tid: 26
+child of vtx 0 pdg: -211 tid: 27
+child of vtx 0 pdg: 211 tid: 28
+child of vtx 0 pdg: -211 tid: 29
+child of vtx 0 pdg: 2212 tid: 30
+child of vtx 0 pdg: -211 tid: 31
+child of vtx 0 pdg: -211 tid: 32
+child of vtx 0 pdg: -211 tid: 33
+child of vtx 0 pdg: 211 tid: 34
+child of vtx 0 pdg: 211 tid: 35
+child of vtx 0 pdg: -211 tid: 36
+child of vtx 0 pdg: 211 tid: 37
+child of vtx 0 pdg: 2112 tid: 38
+child of vtx 0 pdg: 211 tid: 39
+child of vtx 0 pdg: 211 tid: 40
+child of vtx 0 pdg: -211 tid: 41
+child of vtx 0 pdg: 22 tid: 42
+child of vtx 0 pdg: 22 tid: 43
+child of vtx 0 pdg: 22 tid: 44
+child of vtx 0 pdg: 22 tid: 45
+child of vtx 0 pdg: 22 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 48
+child of vtx 0 pdg: 211 tid: 49
+child of vtx 0 pdg: -211 tid: 50
+child of vtx 0 pdg: 22 tid: 51
+child of vtx 0 pdg: 22 tid: 52
+child of vtx 0 pdg: 22 tid: 60
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 71
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 22 tid: 76
+child of vtx 0 pdg: 22 tid: 77
+child of vtx 0 pdg: 22 tid: 78
+child of vtx 0 pdg: 22 tid: 79
+child of vtx 0 pdg: 22 tid: 80
+child of vtx 0 pdg: 22 tid: 81
+child of vtx 0 pdg: 22 tid: 82
+child of vtx 0 pdg: 22 tid: 83
+child of vtx 0 pdg: 22 tid: 84
+total approx E: 8354.97
+simvtx 1 ptype 0 (x,y,z) -0.0258789 0.0690918 1.95312 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 53
+total approx E: 446.096
+simvtx 2 ptype 0 (x,y,z) -0.0258789 0.0690918 1.94141 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 54
+child of vtx 2 pdg: 22 tid: 55
+total approx E: 1810.86
+simvtx 3 ptype 0 (x,y,z) -0.0258789 0.0690918 1.92969 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 56
+child of vtx 3 pdg: 22 tid: 57
+child of vtx 3 pdg: 22 tid: 58
+child of vtx 3 pdg: 22 tid: 59
+child of vtx 3 pdg: 22 tid: 64
+child of vtx 3 pdg: 22 tid: 65
+child of vtx 3 pdg: 22 tid: 66
+child of vtx 3 pdg: 22 tid: 67
+total approx E: 22.5097
+simvtx 4 ptype 0 (x,y,z) -0.0258789 0.0690918 1.92969 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 68
+child of vtx 4 pdg: 22 tid: 85
+total approx E: 2.32255
+simvtx 5 ptype 0 (x,y,z) -0.0258789 0.0690918 1.92188 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 69
+child of vtx 5 pdg: 22 tid: 70
+total approx E: 601.12
+Event 764008
+simvtx 0 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.456055 ptid -1 ppdg -1
+child of vtx 0 pdg: -321 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: -211 tid: 3
+child of vtx 0 pdg: 211 tid: 4
+child of vtx 0 pdg: -211 tid: 5
+child of vtx 0 pdg: 211 tid: 6
+child of vtx 0 pdg: -211 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 2212 tid: 10
+child of vtx 0 pdg: 321 tid: 11
+child of vtx 0 pdg: 211 tid: 12
+child of vtx 0 pdg: -211 tid: 13
+child of vtx 0 pdg: 211 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: -211 tid: 16
+child of vtx 0 pdg: 211 tid: 17
+child of vtx 0 pdg: -211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: -211 tid: 20
+child of vtx 0 pdg: 321 tid: 21
+child of vtx 0 pdg: 2112 tid: 22
+child of vtx 0 pdg: -2112 tid: 23
+child of vtx 0 pdg: 211 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: 321 tid: 27
+child of vtx 0 pdg: -321 tid: 28
+child of vtx 0 pdg: -211 tid: 29
+child of vtx 0 pdg: -321 tid: 30
+child of vtx 0 pdg: -211 tid: 31
+child of vtx 0 pdg: -321 tid: 32
+child of vtx 0 pdg: 2112 tid: 33
+child of vtx 0 pdg: -211 tid: 34
+child of vtx 0 pdg: 321 tid: 35
+child of vtx 0 pdg: -211 tid: 36
+child of vtx 0 pdg: -211 tid: 37
+child of vtx 0 pdg: 321 tid: 38
+child of vtx 0 pdg: -321 tid: 39
+child of vtx 0 pdg: 321 tid: 40
+child of vtx 0 pdg: 310 tid: 41
+child of vtx 0 pdg: 130 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: -211 tid: 44
+child of vtx 0 pdg: 211 tid: 45
+child of vtx 0 pdg: -2212 tid: 46
+child of vtx 0 pdg: -211 tid: 47
+child of vtx 0 pdg: 211 tid: 48
+child of vtx 0 pdg: -211 tid: 49
+child of vtx 0 pdg: 211 tid: 50
+child of vtx 0 pdg: -211 tid: 51
+child of vtx 0 pdg: 310 tid: 52
+child of vtx 0 pdg: 321 tid: 53
+child of vtx 0 pdg: -211 tid: 54
+child of vtx 0 pdg: 211 tid: 55
+child of vtx 0 pdg: -211 tid: 56
+child of vtx 0 pdg: 211 tid: 57
+child of vtx 0 pdg: -211 tid: 58
+child of vtx 0 pdg: 211 tid: 59
+child of vtx 0 pdg: -211 tid: 60
+child of vtx 0 pdg: -211 tid: 61
+child of vtx 0 pdg: -211 tid: 62
+child of vtx 0 pdg: 2212 tid: 63
+child of vtx 0 pdg: 211 tid: 64
+child of vtx 0 pdg: 211 tid: 65
+child of vtx 0 pdg: -211 tid: 66
+child of vtx 0 pdg: -2212 tid: 67
+child of vtx 0 pdg: -211 tid: 68
+child of vtx 0 pdg: 211 tid: 69
+child of vtx 0 pdg: 211 tid: 70
+child of vtx 0 pdg: 211 tid: 71
+child of vtx 0 pdg: -211 tid: 72
+child of vtx 0 pdg: 130 tid: 73
+child of vtx 0 pdg: 211 tid: 74
+child of vtx 0 pdg: -211 tid: 75
+child of vtx 0 pdg: 211 tid: 76
+child of vtx 0 pdg: 211 tid: 77
+child of vtx 0 pdg: 2212 tid: 78
+child of vtx 0 pdg: 211 tid: 79
+child of vtx 0 pdg: -211 tid: 80
+child of vtx 0 pdg: 310 tid: 81
+child of vtx 0 pdg: 22 tid: 82
+child of vtx 0 pdg: 22 tid: 83
+child of vtx 0 pdg: 211 tid: 84
+child of vtx 0 pdg: -211 tid: 85
+child of vtx 0 pdg: 211 tid: 86
+child of vtx 0 pdg: -211 tid: 87
+child of vtx 0 pdg: 211 tid: 88
+child of vtx 0 pdg: -211 tid: 89
+child of vtx 0 pdg: 22 tid: 91
+child of vtx 0 pdg: 22 tid: 92
+child of vtx 0 pdg: 22 tid: 93
+child of vtx 0 pdg: 22 tid: 94
+child of vtx 0 pdg: 211 tid: 95
+child of vtx 0 pdg: -211 tid: 96
+child of vtx 0 pdg: 211 tid: 97
+child of vtx 0 pdg: -211 tid: 98
+child of vtx 0 pdg: 22 tid: 99
+child of vtx 0 pdg: 22 tid: 100
+child of vtx 0 pdg: 22 tid: 101
+child of vtx 0 pdg: 22 tid: 102
+child of vtx 0 pdg: 211 tid: 103
+child of vtx 0 pdg: -211 tid: 104
+child of vtx 0 pdg: 211 tid: 105
+child of vtx 0 pdg: -211 tid: 106
+child of vtx 0 pdg: 211 tid: 107
+child of vtx 0 pdg: -211 tid: 108
+child of vtx 0 pdg: 22 tid: 109
+child of vtx 0 pdg: 22 tid: 110
+child of vtx 0 pdg: 22 tid: 111
+child of vtx 0 pdg: 22 tid: 112
+child of vtx 0 pdg: 22 tid: 113
+child of vtx 0 pdg: 22 tid: 114
+child of vtx 0 pdg: 22 tid: 115
+child of vtx 0 pdg: 22 tid: 116
+child of vtx 0 pdg: 22 tid: 117
+child of vtx 0 pdg: 22 tid: 118
+child of vtx 0 pdg: 211 tid: 122
+child of vtx 0 pdg: -211 tid: 123
+child of vtx 0 pdg: 22 tid: 124
+child of vtx 0 pdg: 22 tid: 125
+child of vtx 0 pdg: 22 tid: 126
+child of vtx 0 pdg: 22 tid: 127
+child of vtx 0 pdg: 22 tid: 128
+child of vtx 0 pdg: 22 tid: 129
+child of vtx 0 pdg: 211 tid: 130
+child of vtx 0 pdg: -211 tid: 131
+child of vtx 0 pdg: 211 tid: 132
+child of vtx 0 pdg: -211 tid: 133
+child of vtx 0 pdg: 22 tid: 134
+child of vtx 0 pdg: 22 tid: 135
+child of vtx 0 pdg: 211 tid: 138
+child of vtx 0 pdg: -211 tid: 139
+child of vtx 0 pdg: 22 tid: 142
+child of vtx 0 pdg: 22 tid: 143
+child of vtx 0 pdg: 22 tid: 144
+child of vtx 0 pdg: 22 tid: 147
+child of vtx 0 pdg: 22 tid: 148
+child of vtx 0 pdg: 22 tid: 149
+child of vtx 0 pdg: 22 tid: 150
+child of vtx 0 pdg: 22 tid: 151
+child of vtx 0 pdg: 22 tid: 152
+child of vtx 0 pdg: 22 tid: 153
+child of vtx 0 pdg: 22 tid: 154
+child of vtx 0 pdg: 22 tid: 155
+child of vtx 0 pdg: 22 tid: 156
+child of vtx 0 pdg: 22 tid: 157
+child of vtx 0 pdg: 22 tid: 158
+child of vtx 0 pdg: 22 tid: 159
+child of vtx 0 pdg: 22 tid: 160
+child of vtx 0 pdg: 22 tid: 161
+child of vtx 0 pdg: 22 tid: 162
+child of vtx 0 pdg: 22 tid: 164
+child of vtx 0 pdg: 22 tid: 165
+child of vtx 0 pdg: 22 tid: 166
+child of vtx 0 pdg: 22 tid: 167
+child of vtx 0 pdg: 22 tid: 168
+child of vtx 0 pdg: 22 tid: 169
+child of vtx 0 pdg: 22 tid: 170
+child of vtx 0 pdg: 22 tid: 171
+child of vtx 0 pdg: 22 tid: 174
+child of vtx 0 pdg: 22 tid: 175
+child of vtx 0 pdg: 22 tid: 176
+child of vtx 0 pdg: 22 tid: 177
+child of vtx 0 pdg: 22 tid: 181
+child of vtx 0 pdg: 22 tid: 182
+child of vtx 0 pdg: 22 tid: 183
+child of vtx 0 pdg: 22 tid: 184
+child of vtx 0 pdg: 22 tid: 185
+child of vtx 0 pdg: 22 tid: 186
+child of vtx 0 pdg: 22 tid: 187
+child of vtx 0 pdg: 22 tid: 188
+child of vtx 0 pdg: 22 tid: 189
+child of vtx 0 pdg: 22 tid: 190
+child of vtx 0 pdg: 22 tid: 191
+child of vtx 0 pdg: 22 tid: 192
+child of vtx 0 pdg: 22 tid: 193
+child of vtx 0 pdg: 22 tid: 194
+child of vtx 0 pdg: 22 tid: 195
+child of vtx 0 pdg: 22 tid: 196
+child of vtx 0 pdg: 22 tid: 197
+child of vtx 0 pdg: 22 tid: 198
+child of vtx 0 pdg: 22 tid: 199
+total approx E: 3856.91
+simvtx 1 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.458008 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 90
+total approx E: 25.6336
+simvtx 2 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.456055 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 119
+child of vtx 2 pdg: 22 tid: 172
+child of vtx 2 pdg: 22 tid: 173
+total approx E: 6.55716
+simvtx 3 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.457031 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 120
+child of vtx 3 pdg: 22 tid: 121
+child of vtx 3 pdg: 22 tid: 163
+total approx E: 25.4554
+simvtx 4 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.456055 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 136
+child of vtx 4 pdg: 22 tid: 137
+total approx E: 14.9008
+simvtx 5 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.40625 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 140
+total approx E: 464.359
+simvtx 6 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.455078 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 141
+total approx E: 376.016
+simvtx 7 ptype 0 (x,y,z) -0.0244751 0.0688477 -0.458008 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 145
+child of vtx 7 pdg: 22 tid: 146
+total approx E: 46.6422
+simvtx 8 ptype 0 (x,y,z) -0.0244751 0.0688477 -0.457031 ptid -1 ppdg -1
+child of vtx 8 pdg: 22 tid: 178
+total approx E: 10.0421
+simvtx 9 ptype 0 (x,y,z) -0.0244141 0.0688477 -0.456055 ptid -1 ppdg -1
+child of vtx 9 pdg: 22 tid: 179
+child of vtx 9 pdg: 22 tid: 180
+total approx E: 15.2508
+Event 764016
+simvtx 0 ptype 0 (x,y,z) -0.0247192 0.0693359 -0.125488 ptid -1 ppdg -1
+child of vtx 0 pdg: 211 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: 3122 tid: 4
+child of vtx 0 pdg: 211 tid: 5
+child of vtx 0 pdg: -211 tid: 6
+child of vtx 0 pdg: 3112 tid: 7
+child of vtx 0 pdg: -3112 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 2212 tid: 10
+child of vtx 0 pdg: 211 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: 211 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: -211 tid: 16
+child of vtx 0 pdg: 211 tid: 17
+child of vtx 0 pdg: -211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: -2112 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: 211 tid: 22
+child of vtx 0 pdg: -211 tid: 23
+child of vtx 0 pdg: 211 tid: 24
+child of vtx 0 pdg: -211 tid: 25
+child of vtx 0 pdg: 211 tid: 26
+child of vtx 0 pdg: -211 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: 211 tid: 29
+child of vtx 0 pdg: 22 tid: 30
+child of vtx 0 pdg: 22 tid: 31
+child of vtx 0 pdg: 211 tid: 32
+child of vtx 0 pdg: -211 tid: 33
+child of vtx 0 pdg: 22 tid: 36
+child of vtx 0 pdg: 22 tid: 37
+child of vtx 0 pdg: -3122 tid: 38
+child of vtx 0 pdg: 22 tid: 39
+child of vtx 0 pdg: 22 tid: 40
+child of vtx 0 pdg: 22 tid: 41
+child of vtx 0 pdg: 22 tid: 42
+child of vtx 0 pdg: 22 tid: 43
+child of vtx 0 pdg: 22 tid: 44
+child of vtx 0 pdg: 22 tid: 45
+child of vtx 0 pdg: 22 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 54
+child of vtx 0 pdg: 22 tid: 55
+child of vtx 0 pdg: 22 tid: 56
+child of vtx 0 pdg: 22 tid: 57
+child of vtx 0 pdg: 22 tid: 58
+child of vtx 0 pdg: 22 tid: 59
+child of vtx 0 pdg: 22 tid: 60
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+child of vtx 0 pdg: 22 tid: 65
+child of vtx 0 pdg: 22 tid: 66
+child of vtx 0 pdg: 22 tid: 67
+child of vtx 0 pdg: 22 tid: 68
+child of vtx 0 pdg: 22 tid: 69
+child of vtx 0 pdg: 22 tid: 70
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 22 tid: 76
+child of vtx 0 pdg: 22 tid: 77
+child of vtx 0 pdg: 22 tid: 78
+total approx E: 2048.39
+simvtx 1 ptype 0 (x,y,z) -0.0247192 0.0693359 -0.123291 ptid -1 ppdg -1
+child of vtx 1 pdg: 11 tid: 34
+child of vtx 1 pdg: -11 tid: 35
+total approx E: 240.28
+simvtx 2 ptype 0 (x,y,z) -0.0247192 0.0693359 -0.125488 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 48
+child of vtx 2 pdg: 22 tid: 49
+total approx E: 6.21449
+simvtx 3 ptype 0 (x,y,z) -0.0247192 0.0693359 -0.124512 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 50
+child of vtx 3 pdg: 22 tid: 51
+total approx E: 53.7745
+simvtx 4 ptype 0 (x,y,z) -0.0247192 0.0693359 -0.166016 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 52
+child of vtx 4 pdg: 22 tid: 53
+total approx E: 2885.95
+simvtx 5 ptype 0 (x,y,z) -0.0247192 0.0693359 -0.124756 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 71
+child of vtx 5 pdg: 22 tid: 72
+total approx E: 8.26494
+Event 764013
+simvtx 0 ptype 0 (x,y,z) -0.0249634 0.0698242 -0.156738 ptid -1 ppdg -1
+child of vtx 0 pdg: 321 tid: 1
+child of vtx 0 pdg: 2112 tid: 2
+child of vtx 0 pdg: -321 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: 321 tid: 5
+child of vtx 0 pdg: -321 tid: 6
+child of vtx 0 pdg: -211 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -321 tid: 9
+child of vtx 0 pdg: 211 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: 211 tid: 12
+child of vtx 0 pdg: 211 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: -211 tid: 16
+child of vtx 0 pdg: 211 tid: 17
+child of vtx 0 pdg: -211 tid: 18
+child of vtx 0 pdg: 2212 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: 321 tid: 22
+child of vtx 0 pdg: -211 tid: 23
+child of vtx 0 pdg: 211 tid: 24
+child of vtx 0 pdg: -211 tid: 25
+child of vtx 0 pdg: 130 tid: 26
+child of vtx 0 pdg: -211 tid: 27
+child of vtx 0 pdg: 211 tid: 28
+child of vtx 0 pdg: 2212 tid: 29
+child of vtx 0 pdg: -2212 tid: 30
+child of vtx 0 pdg: 211 tid: 31
+child of vtx 0 pdg: -211 tid: 32
+child of vtx 0 pdg: 211 tid: 33
+child of vtx 0 pdg: 211 tid: 34
+child of vtx 0 pdg: 22 tid: 35
+child of vtx 0 pdg: 22 tid: 36
+child of vtx 0 pdg: 22 tid: 37
+child of vtx 0 pdg: 211 tid: 38
+child of vtx 0 pdg: -211 tid: 39
+child of vtx 0 pdg: 22 tid: 40
+child of vtx 0 pdg: 22 tid: 41
+child of vtx 0 pdg: 211 tid: 42
+child of vtx 0 pdg: -211 tid: 43
+child of vtx 0 pdg: 22 tid: 44
+child of vtx 0 pdg: 22 tid: 45
+child of vtx 0 pdg: 22 tid: 48
+child of vtx 0 pdg: 22 tid: 49
+child of vtx 0 pdg: 22 tid: 50
+child of vtx 0 pdg: 22 tid: 51
+child of vtx 0 pdg: 211 tid: 52
+child of vtx 0 pdg: -211 tid: 53
+child of vtx 0 pdg: 22 tid: 54
+child of vtx 0 pdg: 22 tid: 55
+child of vtx 0 pdg: 211 tid: 56
+child of vtx 0 pdg: -211 tid: 57
+child of vtx 0 pdg: 22 tid: 58
+child of vtx 0 pdg: 211 tid: 59
+child of vtx 0 pdg: -211 tid: 60
+child of vtx 0 pdg: 211 tid: 61
+child of vtx 0 pdg: -211 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+child of vtx 0 pdg: 22 tid: 65
+child of vtx 0 pdg: 22 tid: 66
+child of vtx 0 pdg: 211 tid: 67
+child of vtx 0 pdg: -211 tid: 68
+child of vtx 0 pdg: 211 tid: 69
+child of vtx 0 pdg: -211 tid: 70
+child of vtx 0 pdg: 211 tid: 71
+child of vtx 0 pdg: -211 tid: 72
+child of vtx 0 pdg: -211 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 22 tid: 76
+child of vtx 0 pdg: 22 tid: 77
+child of vtx 0 pdg: 22 tid: 78
+child of vtx 0 pdg: 22 tid: 79
+child of vtx 0 pdg: 22 tid: 80
+child of vtx 0 pdg: 22 tid: 81
+child of vtx 0 pdg: 22 tid: 82
+child of vtx 0 pdg: 22 tid: 83
+child of vtx 0 pdg: 22 tid: 84
+child of vtx 0 pdg: 22 tid: 85
+child of vtx 0 pdg: 22 tid: 86
+child of vtx 0 pdg: 22 tid: 87
+child of vtx 0 pdg: 22 tid: 88
+child of vtx 0 pdg: 22 tid: 91
+child of vtx 0 pdg: 22 tid: 92
+child of vtx 0 pdg: 22 tid: 95
+child of vtx 0 pdg: 22 tid: 96
+child of vtx 0 pdg: 22 tid: 97
+child of vtx 0 pdg: 22 tid: 98
+child of vtx 0 pdg: 22 tid: 99
+child of vtx 0 pdg: 22 tid: 100
+child of vtx 0 pdg: 22 tid: 101
+child of vtx 0 pdg: 22 tid: 102
+child of vtx 0 pdg: 22 tid: 103
+child of vtx 0 pdg: 22 tid: 104
+child of vtx 0 pdg: 22 tid: 105
+child of vtx 0 pdg: 22 tid: 106
+child of vtx 0 pdg: 22 tid: 107
+child of vtx 0 pdg: 22 tid: 108
+child of vtx 0 pdg: 22 tid: 109
+child of vtx 0 pdg: 22 tid: 110
+total approx E: 10141.7
+simvtx 1 ptype 0 (x,y,z) -0.0249634 0.0698242 -0.156738 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 46
+child of vtx 1 pdg: 22 tid: 47
+child of vtx 1 pdg: 22 tid: 89
+child of vtx 1 pdg: 22 tid: 90
+total approx E: 33.8008
+simvtx 2 ptype 0 (x,y,z) -0.0249634 0.0698242 -0.157227 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 73
+total approx E: 1.21266
+simvtx 3 ptype 0 (x,y,z) -0.0249634 0.0698242 -0.156738 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 93
+child of vtx 3 pdg: 22 tid: 94
+total approx E: 3.71588
+simvtx 4 ptype 0 (x,y,z) -0.0249634 0.0698242 -0.157227 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 111
+child of vtx 4 pdg: 22 tid: 112
+total approx E: 24.1743
+Event 764015
+simvtx 0 ptype 0 (x,y,z) -0.0236206 0.0681152 -6.20312 ptid -1 ppdg -1
+child of vtx 0 pdg: 211 tid: 1
+child of vtx 0 pdg: 211 tid: 2
+child of vtx 0 pdg: -211 tid: 3
+child of vtx 0 pdg: 211 tid: 4
+child of vtx 0 pdg: -211 tid: 5
+child of vtx 0 pdg: 211 tid: 6
+child of vtx 0 pdg: -211 tid: 7
+child of vtx 0 pdg: 2112 tid: 8
+child of vtx 0 pdg: -2112 tid: 9
+child of vtx 0 pdg: -211 tid: 10
+child of vtx 0 pdg: -2212 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: 211 tid: 13
+child of vtx 0 pdg: 211 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: 2112 tid: 16
+child of vtx 0 pdg: -2112 tid: 17
+child of vtx 0 pdg: -211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: -2112 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: 211 tid: 22
+child of vtx 0 pdg: -211 tid: 23
+child of vtx 0 pdg: 211 tid: 24
+child of vtx 0 pdg: -211 tid: 25
+child of vtx 0 pdg: 211 tid: 26
+child of vtx 0 pdg: 211 tid: 27
+child of vtx 0 pdg: 211 tid: 28
+child of vtx 0 pdg: -211 tid: 29
+child of vtx 0 pdg: -211 tid: 30
+child of vtx 0 pdg: 2112 tid: 31
+child of vtx 0 pdg: 211 tid: 32
+child of vtx 0 pdg: 321 tid: 33
+child of vtx 0 pdg: 310 tid: 34
+child of vtx 0 pdg: -211 tid: 35
+child of vtx 0 pdg: -211 tid: 36
+child of vtx 0 pdg: -321 tid: 37
+child of vtx 0 pdg: 211 tid: 38
+child of vtx 0 pdg: 2112 tid: 39
+child of vtx 0 pdg: 211 tid: 40
+child of vtx 0 pdg: 2112 tid: 41
+child of vtx 0 pdg: 211 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: -211 tid: 44
+child of vtx 0 pdg: -211 tid: 45
+child of vtx 0 pdg: 321 tid: 46
+child of vtx 0 pdg: -211 tid: 47
+child of vtx 0 pdg: -211 tid: 48
+child of vtx 0 pdg: 2212 tid: 49
+child of vtx 0 pdg: 211 tid: 50
+child of vtx 0 pdg: -211 tid: 51
+child of vtx 0 pdg: -211 tid: 52
+child of vtx 0 pdg: 211 tid: 53
+child of vtx 0 pdg: 211 tid: 54
+child of vtx 0 pdg: -211 tid: 55
+child of vtx 0 pdg: 211 tid: 56
+child of vtx 0 pdg: -211 tid: 57
+child of vtx 0 pdg: 211 tid: 58
+child of vtx 0 pdg: 211 tid: 59
+child of vtx 0 pdg: 310 tid: 60
+child of vtx 0 pdg: 310 tid: 61
+child of vtx 0 pdg: 310 tid: 62
+child of vtx 0 pdg: 310 tid: 63
+child of vtx 0 pdg: 22 tid: 66
+child of vtx 0 pdg: 22 tid: 67
+child of vtx 0 pdg: 22 tid: 70
+child of vtx 0 pdg: 22 tid: 71
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 211 tid: 76
+child of vtx 0 pdg: -211 tid: 77
+child of vtx 0 pdg: 211 tid: 79
+child of vtx 0 pdg: -211 tid: 80
+child of vtx 0 pdg: 22 tid: 81
+child of vtx 0 pdg: 22 tid: 82
+child of vtx 0 pdg: 211 tid: 83
+child of vtx 0 pdg: -211 tid: 84
+child of vtx 0 pdg: 22 tid: 85
+child of vtx 0 pdg: 22 tid: 86
+child of vtx 0 pdg: 22 tid: 87
+child of vtx 0 pdg: 22 tid: 88
+child of vtx 0 pdg: 211 tid: 89
+child of vtx 0 pdg: -211 tid: 90
+child of vtx 0 pdg: 22 tid: 91
+child of vtx 0 pdg: 22 tid: 92
+child of vtx 0 pdg: 22 tid: 93
+child of vtx 0 pdg: 22 tid: 94
+child of vtx 0 pdg: 22 tid: 95
+child of vtx 0 pdg: 22 tid: 96
+child of vtx 0 pdg: 22 tid: 97
+child of vtx 0 pdg: 22 tid: 98
+child of vtx 0 pdg: 22 tid: 99
+child of vtx 0 pdg: 22 tid: 100
+child of vtx 0 pdg: 22 tid: 101
+child of vtx 0 pdg: 22 tid: 104
+child of vtx 0 pdg: 22 tid: 105
+child of vtx 0 pdg: 22 tid: 106
+child of vtx 0 pdg: 22 tid: 107
+child of vtx 0 pdg: 22 tid: 108
+child of vtx 0 pdg: 22 tid: 109
+child of vtx 0 pdg: 211 tid: 112
+child of vtx 0 pdg: -211 tid: 113
+child of vtx 0 pdg: 22 tid: 118
+child of vtx 0 pdg: 22 tid: 119
+child of vtx 0 pdg: 22 tid: 120
+child of vtx 0 pdg: 22 tid: 121
+child of vtx 0 pdg: 22 tid: 122
+child of vtx 0 pdg: 22 tid: 123
+child of vtx 0 pdg: 22 tid: 124
+child of vtx 0 pdg: 22 tid: 125
+child of vtx 0 pdg: 22 tid: 126
+child of vtx 0 pdg: 22 tid: 127
+child of vtx 0 pdg: 22 tid: 128
+child of vtx 0 pdg: 22 tid: 129
+child of vtx 0 pdg: 22 tid: 130
+child of vtx 0 pdg: 22 tid: 131
+child of vtx 0 pdg: 22 tid: 132
+child of vtx 0 pdg: 22 tid: 133
+child of vtx 0 pdg: 22 tid: 137
+child of vtx 0 pdg: 22 tid: 138
+child of vtx 0 pdg: 22 tid: 139
+child of vtx 0 pdg: 22 tid: 140
+child of vtx 0 pdg: 22 tid: 141
+child of vtx 0 pdg: 22 tid: 142
+child of vtx 0 pdg: 22 tid: 145
+child of vtx 0 pdg: 22 tid: 146
+child of vtx 0 pdg: 22 tid: 147
+child of vtx 0 pdg: 22 tid: 148
+child of vtx 0 pdg: 22 tid: 149
+child of vtx 0 pdg: 22 tid: 150
+child of vtx 0 pdg: 22 tid: 151
+child of vtx 0 pdg: 22 tid: 152
+child of vtx 0 pdg: 22 tid: 153
+child of vtx 0 pdg: 211 tid: 155
+child of vtx 0 pdg: -211 tid: 156
+child of vtx 0 pdg: 22 tid: 157
+child of vtx 0 pdg: 22 tid: 158
+child of vtx 0 pdg: 22 tid: 159
+child of vtx 0 pdg: 22 tid: 160
+child of vtx 0 pdg: 22 tid: 162
+child of vtx 0 pdg: 22 tid: 163
+child of vtx 0 pdg: 22 tid: 164
+child of vtx 0 pdg: 22 tid: 165
+total approx E: 8813.14
+simvtx 1 ptype 0 (x,y,z) -0.0236206 0.0681152 -6.20312 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 64
+child of vtx 1 pdg: 22 tid: 65
+child of vtx 1 pdg: 22 tid: 68
+child of vtx 1 pdg: 22 tid: 69
+child of vtx 1 pdg: 22 tid: 110
+child of vtx 1 pdg: 22 tid: 111
+child of vtx 1 pdg: 22 tid: 143
+child of vtx 1 pdg: 22 tid: 144
+total approx E: 80.259
+simvtx 2 ptype 0 (x,y,z) -0.0236206 0.0681152 -6.20312 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 78
+child of vtx 2 pdg: 22 tid: 102
+child of vtx 2 pdg: 22 tid: 103
+total approx E: 18.0574
+simvtx 3 ptype 0 (x,y,z) -0.0236206 0.0681152 -6.20312 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 114
+child of vtx 3 pdg: 22 tid: 115
+total approx E: 26.5003
+simvtx 4 ptype 0 (x,y,z) -0.0235596 0.0683594 -6.20312 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 116
+child of vtx 4 pdg: 22 tid: 117
+total approx E: 61.2884
+simvtx 5 ptype 0 (x,y,z) -0.0236206 0.0681152 -6.17188 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 134
+total approx E: 696.246
+simvtx 6 ptype 0 (x,y,z) -0.0236206 0.0683594 -6.20312 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 135
+child of vtx 6 pdg: 22 tid: 136
+total approx E: 12.0439
+simvtx 7 ptype 0 (x,y,z) -0.0236206 0.0681152 -6.20312 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 154
+total approx E: 4.74799
+simvtx 8 ptype 0 (x,y,z) -0.0236206 0.0681152 -6.20312 ptid -1 ppdg -1
+child of vtx 8 pdg: 22 tid: 161
+total approx E: 19.9083
+Event 764019
+simvtx 0 ptype 0 (x,y,z) -0.0258179 0.0688477 1.38281 ptid -1 ppdg -1
+child of vtx 0 pdg: 2212 tid: 1
+child of vtx 0 pdg: -2212 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: 2212 tid: 4
+child of vtx 0 pdg: -2212 tid: 5
+child of vtx 0 pdg: 321 tid: 6
+child of vtx 0 pdg: 2212 tid: 7
+child of vtx 0 pdg: 2112 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 2212 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: 211 tid: 12
+child of vtx 0 pdg: -211 tid: 13
+child of vtx 0 pdg: 211 tid: 14
+child of vtx 0 pdg: -211 tid: 15
+child of vtx 0 pdg: 211 tid: 16
+child of vtx 0 pdg: -211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: -211 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: 211 tid: 22
+child of vtx 0 pdg: -211 tid: 23
+child of vtx 0 pdg: 310 tid: 24
+child of vtx 0 pdg: 310 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: -211 tid: 27
+child of vtx 0 pdg: 211 tid: 28
+child of vtx 0 pdg: -2112 tid: 29
+child of vtx 0 pdg: -2212 tid: 30
+child of vtx 0 pdg: 211 tid: 31
+child of vtx 0 pdg: 310 tid: 32
+child of vtx 0 pdg: 130 tid: 33
+child of vtx 0 pdg: 310 tid: 34
+child of vtx 0 pdg: 22 tid: 35
+child of vtx 0 pdg: 22 tid: 36
+child of vtx 0 pdg: 22 tid: 37
+child of vtx 0 pdg: 22 tid: 38
+child of vtx 0 pdg: 22 tid: 39
+child of vtx 0 pdg: 22 tid: 40
+child of vtx 0 pdg: 22 tid: 41
+child of vtx 0 pdg: 22 tid: 42
+child of vtx 0 pdg: 22 tid: 45
+child of vtx 0 pdg: 22 tid: 46
+child of vtx 0 pdg: 211 tid: 47
+child of vtx 0 pdg: -211 tid: 48
+child of vtx 0 pdg: 22 tid: 49
+child of vtx 0 pdg: 22 tid: 50
+child of vtx 0 pdg: 22 tid: 51
+child of vtx 0 pdg: -211 tid: 52
+child of vtx 0 pdg: 22 tid: 53
+child of vtx 0 pdg: 22 tid: 54
+child of vtx 0 pdg: 22 tid: 59
+child of vtx 0 pdg: 22 tid: 60
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+total approx E: 8675.66
+simvtx 1 ptype 0 (x,y,z) -0.0258179 0.0688477 1.38281 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 43
+child of vtx 1 pdg: 22 tid: 44
+child of vtx 1 pdg: 22 tid: 55
+child of vtx 1 pdg: 22 tid: 56
+child of vtx 1 pdg: 22 tid: 57
+child of vtx 1 pdg: 11 tid: 58
+total approx E: 41.6906
+simvtx 2 ptype 0 (x,y,z) -0.0258179 0.0688477 1.38281 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 65
+total approx E: 35.0673
+simvtx 3 ptype 0 (x,y,z) -0.0258179 0.0688477 1.37891 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 66
+total approx E: 11.994
+Event 764017
+simvtx 0 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.88281 ptid -1 ppdg -1
+child of vtx 0 pdg: -211 tid: 1
+child of vtx 0 pdg: 2112 tid: 2
+child of vtx 0 pdg: -211 tid: 3
+child of vtx 0 pdg: 211 tid: 4
+child of vtx 0 pdg: 321 tid: 5
+child of vtx 0 pdg: -211 tid: 6
+child of vtx 0 pdg: 211 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 321 tid: 10
+child of vtx 0 pdg: -321 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: 211 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: -211 tid: 16
+child of vtx 0 pdg: -2112 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: -211 tid: 19
+child of vtx 0 pdg: 321 tid: 20
+child of vtx 0 pdg: 211 tid: 21
+child of vtx 0 pdg: 211 tid: 22
+child of vtx 0 pdg: -211 tid: 23
+child of vtx 0 pdg: 211 tid: 24
+child of vtx 0 pdg: 321 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: 211 tid: 27
+child of vtx 0 pdg: 2112 tid: 28
+child of vtx 0 pdg: -2112 tid: 29
+child of vtx 0 pdg: -211 tid: 30
+child of vtx 0 pdg: -211 tid: 31
+child of vtx 0 pdg: 211 tid: 32
+child of vtx 0 pdg: 211 tid: 33
+child of vtx 0 pdg: -211 tid: 34
+child of vtx 0 pdg: 310 tid: 35
+child of vtx 0 pdg: -321 tid: 36
+child of vtx 0 pdg: 211 tid: 37
+child of vtx 0 pdg: 211 tid: 38
+child of vtx 0 pdg: 130 tid: 39
+child of vtx 0 pdg: -211 tid: 40
+child of vtx 0 pdg: 310 tid: 41
+child of vtx 0 pdg: 211 tid: 42
+child of vtx 0 pdg: 2112 tid: 43
+child of vtx 0 pdg: -2212 tid: 44
+child of vtx 0 pdg: -211 tid: 45
+child of vtx 0 pdg: 211 tid: 46
+child of vtx 0 pdg: -211 tid: 47
+child of vtx 0 pdg: 211 tid: 48
+child of vtx 0 pdg: 2112 tid: 49
+child of vtx 0 pdg: 211 tid: 50
+child of vtx 0 pdg: 211 tid: 51
+child of vtx 0 pdg: -211 tid: 52
+child of vtx 0 pdg: 321 tid: 53
+child of vtx 0 pdg: -211 tid: 54
+child of vtx 0 pdg: 130 tid: 55
+child of vtx 0 pdg: -211 tid: 56
+child of vtx 0 pdg: -211 tid: 57
+child of vtx 0 pdg: 130 tid: 58
+child of vtx 0 pdg: 211 tid: 59
+child of vtx 0 pdg: 130 tid: 60
+child of vtx 0 pdg: 211 tid: 61
+child of vtx 0 pdg: -211 tid: 62
+child of vtx 0 pdg: -211 tid: 63
+child of vtx 0 pdg: 211 tid: 64
+child of vtx 0 pdg: 130 tid: 65
+child of vtx 0 pdg: 310 tid: 66
+child of vtx 0 pdg: 211 tid: 69
+child of vtx 0 pdg: -211 tid: 70
+child of vtx 0 pdg: 22 tid: 71
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 211 tid: 73
+child of vtx 0 pdg: -211 tid: 74
+child of vtx 0 pdg: 211 tid: 75
+child of vtx 0 pdg: -211 tid: 76
+child of vtx 0 pdg: 211 tid: 77
+child of vtx 0 pdg: -211 tid: 78
+child of vtx 0 pdg: 211 tid: 79
+child of vtx 0 pdg: -211 tid: 80
+child of vtx 0 pdg: -211 tid: 81
+child of vtx 0 pdg: 211 tid: 82
+child of vtx 0 pdg: -211 tid: 83
+child of vtx 0 pdg: 22 tid: 84
+child of vtx 0 pdg: 22 tid: 85
+child of vtx 0 pdg: 211 tid: 86
+child of vtx 0 pdg: -211 tid: 87
+child of vtx 0 pdg: 22 tid: 88
+child of vtx 0 pdg: 22 tid: 89
+child of vtx 0 pdg: 22 tid: 90
+child of vtx 0 pdg: 22 tid: 91
+child of vtx 0 pdg: 211 tid: 93
+child of vtx 0 pdg: -211 tid: 94
+child of vtx 0 pdg: 211 tid: 95
+child of vtx 0 pdg: -211 tid: 96
+child of vtx 0 pdg: 22 tid: 97
+child of vtx 0 pdg: 22 tid: 98
+child of vtx 0 pdg: 22 tid: 104
+child of vtx 0 pdg: 22 tid: 105
+child of vtx 0 pdg: 22 tid: 106
+child of vtx 0 pdg: 22 tid: 107
+child of vtx 0 pdg: 22 tid: 112
+child of vtx 0 pdg: 22 tid: 113
+child of vtx 0 pdg: 22 tid: 117
+child of vtx 0 pdg: 22 tid: 118
+child of vtx 0 pdg: 22 tid: 119
+child of vtx 0 pdg: 22 tid: 120
+child of vtx 0 pdg: 22 tid: 121
+child of vtx 0 pdg: 22 tid: 122
+child of vtx 0 pdg: 22 tid: 123
+child of vtx 0 pdg: 22 tid: 124
+child of vtx 0 pdg: 22 tid: 125
+child of vtx 0 pdg: 22 tid: 128
+child of vtx 0 pdg: 22 tid: 129
+child of vtx 0 pdg: 22 tid: 130
+child of vtx 0 pdg: 22 tid: 131
+child of vtx 0 pdg: 22 tid: 132
+child of vtx 0 pdg: 22 tid: 133
+child of vtx 0 pdg: 22 tid: 134
+child of vtx 0 pdg: 22 tid: 135
+child of vtx 0 pdg: 22 tid: 136
+child of vtx 0 pdg: 22 tid: 137
+child of vtx 0 pdg: 22 tid: 138
+child of vtx 0 pdg: 22 tid: 139
+child of vtx 0 pdg: 22 tid: 140
+child of vtx 0 pdg: 22 tid: 141
+child of vtx 0 pdg: 22 tid: 144
+child of vtx 0 pdg: 22 tid: 145
+child of vtx 0 pdg: 22 tid: 148
+child of vtx 0 pdg: 22 tid: 149
+child of vtx 0 pdg: 22 tid: 154
+child of vtx 0 pdg: 22 tid: 155
+child of vtx 0 pdg: 22 tid: 156
+child of vtx 0 pdg: 22 tid: 157
+child of vtx 0 pdg: 22 tid: 158
+child of vtx 0 pdg: 22 tid: 159
+total approx E: 3890.19
+simvtx 1 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.89062 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 67
+child of vtx 1 pdg: 22 tid: 68
+total approx E: 591.717
+simvtx 2 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.875 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 92
+total approx E: 21.3853
+simvtx 3 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.88281 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 99
+child of vtx 3 pdg: 11 tid: 100
+child of vtx 3 pdg: -11 tid: 101
+total approx E: 64.7848
+simvtx 4 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.88281 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 102
+child of vtx 4 pdg: 22 tid: 103
+child of vtx 4 pdg: 22 tid: 108
+child of vtx 4 pdg: 22 tid: 109
+child of vtx 4 pdg: 22 tid: 142
+child of vtx 4 pdg: 22 tid: 143
+child of vtx 4 pdg: 22 tid: 146
+child of vtx 4 pdg: 22 tid: 147
+total approx E: 42.1325
+simvtx 5 ptype 0 (x,y,z) -0.0252686 0.0693359 -3.88281 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 110
+child of vtx 5 pdg: 22 tid: 111
+total approx E: 14.8912
+simvtx 6 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.875 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 114
+total approx E: 10.1717
+simvtx 7 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.875 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 115
+child of vtx 7 pdg: 22 tid: 116
+total approx E: 16.2178
+simvtx 8 ptype 0 (x,y,z) -0.0253296 0.0693359 -3.88281 ptid -1 ppdg -1
+child of vtx 8 pdg: 22 tid: 126
+child of vtx 8 pdg: 22 tid: 127
+child of vtx 8 pdg: 22 tid: 150
+child of vtx 8 pdg: 22 tid: 151
+child of vtx 8 pdg: 22 tid: 152
+child of vtx 8 pdg: 22 tid: 153
+total approx E: 11.3379
+Event 764021
+simvtx 0 ptype 0 (x,y,z) -0.024353 0.0681152 5.46875 ptid -1 ppdg -1
+child of vtx 0 pdg: 211 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: -211 tid: 3
+child of vtx 0 pdg: 2212 tid: 4
+child of vtx 0 pdg: 211 tid: 5
+child of vtx 0 pdg: -211 tid: 6
+child of vtx 0 pdg: 321 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -321 tid: 9
+child of vtx 0 pdg: 211 tid: 10
+child of vtx 0 pdg: 321 tid: 11
+child of vtx 0 pdg: 211 tid: 12
+child of vtx 0 pdg: -211 tid: 13
+child of vtx 0 pdg: 2212 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: 211 tid: 16
+child of vtx 0 pdg: 310 tid: 17
+child of vtx 0 pdg: -2212 tid: 18
+child of vtx 0 pdg: 2212 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: -2212 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: 211 tid: 23
+child of vtx 0 pdg: 130 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: 211 tid: 26
+child of vtx 0 pdg: -211 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: 310 tid: 29
+child of vtx 0 pdg: 211 tid: 30
+child of vtx 0 pdg: -211 tid: 31
+child of vtx 0 pdg: -211 tid: 32
+child of vtx 0 pdg: -211 tid: 33
+child of vtx 0 pdg: 130 tid: 34
+child of vtx 0 pdg: 310 tid: 35
+child of vtx 0 pdg: -321 tid: 36
+child of vtx 0 pdg: -211 tid: 37
+child of vtx 0 pdg: 130 tid: 38
+child of vtx 0 pdg: 310 tid: 39
+child of vtx 0 pdg: 130 tid: 40
+child of vtx 0 pdg: 130 tid: 41
+child of vtx 0 pdg: 22 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: -211 tid: 44
+child of vtx 0 pdg: 22 tid: 45
+child of vtx 0 pdg: 22 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 48
+child of vtx 0 pdg: 211 tid: 49
+child of vtx 0 pdg: -211 tid: 50
+child of vtx 0 pdg: 211 tid: 53
+child of vtx 0 pdg: -211 tid: 54
+child of vtx 0 pdg: 211 tid: 55
+child of vtx 0 pdg: -211 tid: 56
+child of vtx 0 pdg: 22 tid: 57
+child of vtx 0 pdg: 22 tid: 58
+child of vtx 0 pdg: 22 tid: 61
+child of vtx 0 pdg: 22 tid: 62
+child of vtx 0 pdg: 22 tid: 63
+child of vtx 0 pdg: 22 tid: 64
+child of vtx 0 pdg: 22 tid: 65
+child of vtx 0 pdg: 22 tid: 70
+child of vtx 0 pdg: 22 tid: 71
+child of vtx 0 pdg: 22 tid: 72
+child of vtx 0 pdg: 22 tid: 73
+child of vtx 0 pdg: 22 tid: 74
+child of vtx 0 pdg: 22 tid: 75
+child of vtx 0 pdg: 22 tid: 76
+total approx E: 6117.21
+simvtx 1 ptype 0 (x,y,z) -0.024353 0.0681152 5.46875 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 51
+child of vtx 1 pdg: 22 tid: 52
+child of vtx 1 pdg: 22 tid: 59
+child of vtx 1 pdg: 22 tid: 60
+total approx E: 43.4627
+simvtx 2 ptype 0 (x,y,z) -0.024353 0.0681152 5.46875 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 66
+child of vtx 2 pdg: 22 tid: 67
+total approx E: 24.9105
+simvtx 3 ptype 0 (x,y,z) -0.024353 0.0681152 5.54688 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 68
+child of vtx 3 pdg: 22 tid: 69
+total approx E: 1303.59
+Event 764024
+simvtx 0 ptype 0 (x,y,z) -0.0247803 0.0683594 1.34375 ptid -1 ppdg -1
+child of vtx 0 pdg: -211 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: -211 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: 321 tid: 5
+child of vtx 0 pdg: 321 tid: 6
+child of vtx 0 pdg: 211 tid: 7
+child of vtx 0 pdg: -211 tid: 8
+child of vtx 0 pdg: -3112 tid: 9
+child of vtx 0 pdg: -211 tid: 10
+child of vtx 0 pdg: -3112 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: 211 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: 321 tid: 15
+child of vtx 0 pdg: -211 tid: 16
+child of vtx 0 pdg: 211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: 211 tid: 20
+child of vtx 0 pdg: -211 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: -211 tid: 23
+child of vtx 0 pdg: 2212 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: 130 tid: 26
+child of vtx 0 pdg: 211 tid: 27
+child of vtx 0 pdg: 3112 tid: 28
+child of vtx 0 pdg: 211 tid: 29
+child of vtx 0 pdg: 130 tid: 30
+child of vtx 0 pdg: 130 tid: 31
+child of vtx 0 pdg: 22 tid: 34
+child of vtx 0 pdg: 22 tid: 35
+child of vtx 0 pdg: 3122 tid: 36
+child of vtx 0 pdg: 22 tid: 37
+child of vtx 0 pdg: 22 tid: 39
+child of vtx 0 pdg: 22 tid: 40
+child of vtx 0 pdg: 211 tid: 41
+child of vtx 0 pdg: -211 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: -211 tid: 44
+child of vtx 0 pdg: 22 tid: 45
+child of vtx 0 pdg: 22 tid: 46
+child of vtx 0 pdg: 22 tid: 47
+child of vtx 0 pdg: 22 tid: 48
+child of vtx 0 pdg: 22 tid: 49
+child of vtx 0 pdg: 22 tid: 50
+child of vtx 0 pdg: 22 tid: 51
+child of vtx 0 pdg: 22 tid: 52
+child of vtx 0 pdg: 22 tid: 53
+child of vtx 0 pdg: 22 tid: 54
+child of vtx 0 pdg: 22 tid: 55
+child of vtx 0 pdg: 22 tid: 56
+total approx E: 6205.4
+simvtx 1 ptype 0 (x,y,z) -0.0247803 0.0683594 1.34375 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 32
+child of vtx 1 pdg: 22 tid: 33
+total approx E: 4.96739
+simvtx 2 ptype 0 (x,y,z) -0.0247803 0.0683594 1.33984 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 38
+total approx E: 401.878
+Event 764026
+simvtx 0 ptype 0 (x,y,z) -0.0236206 0.0705566 1.42188 ptid -1 ppdg -1
+child of vtx 0 pdg: 2212 tid: 1
+child of vtx 0 pdg: 211 tid: 2
+child of vtx 0 pdg: 2212 tid: 3
+total approx E: 10955
+simvtx 1 ptype 0 (x,y,z) -0.0236206 0.0705566 1.41406 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 4
+child of vtx 1 pdg: 22 tid: 5
+total approx E: 1963.7
+Event 764003
+simvtx 0 ptype 0 (x,y,z) -0.024353 0.0695801 0.141113 ptid -1 ppdg -1
+child of vtx 0 pdg: 211 tid: 1
+child of vtx 0 pdg: 321 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: 211 tid: 5
+child of vtx 0 pdg: 211 tid: 6
+child of vtx 0 pdg: 211 tid: 7
+child of vtx 0 pdg: 211 tid: 8
+child of vtx 0 pdg: -211 tid: 9
+child of vtx 0 pdg: 321 tid: 10
+child of vtx 0 pdg: -211 tid: 11
+child of vtx 0 pdg: -211 tid: 12
+child of vtx 0 pdg: -2112 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: 211 tid: 15
+child of vtx 0 pdg: -211 tid: 16
+child of vtx 0 pdg: 2212 tid: 17
+child of vtx 0 pdg: -2212 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: 321 tid: 20
+child of vtx 0 pdg: 321 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: 211 tid: 23
+child of vtx 0 pdg: -211 tid: 24
+child of vtx 0 pdg: 211 tid: 25
+child of vtx 0 pdg: -211 tid: 26
+child of vtx 0 pdg: 321 tid: 27
+child of vtx 0 pdg: -321 tid: 28
+child of vtx 0 pdg: 321 tid: 29
+child of vtx 0 pdg: 211 tid: 30
+child of vtx 0 pdg: -2112 tid: 31
+child of vtx 0 pdg: -211 tid: 32
+child of vtx 0 pdg: -321 tid: 33
+child of vtx 0 pdg: 2212 tid: 34
+child of vtx 0 pdg: -2212 tid: 35
+child of vtx 0 pdg: 3122 tid: 36
+child of vtx 0 pdg: -2112 tid: 37
+child of vtx 0 pdg: -321 tid: 38
+child of vtx 0 pdg: 211 tid: 39
+child of vtx 0 pdg: 211 tid: 40
+child of vtx 0 pdg: 211 tid: 41
+child of vtx 0 pdg: -211 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: -211 tid: 44
+child of vtx 0 pdg: 211 tid: 45
+child of vtx 0 pdg: 211 tid: 46
+child of vtx 0 pdg: -211 tid: 47
+child of vtx 0 pdg: 211 tid: 48
+child of vtx 0 pdg: 321 tid: 49
+child of vtx 0 pdg: -321 tid: 50
+child of vtx 0 pdg: 211 tid: 51
+child of vtx 0 pdg: -211 tid: 52
+child of vtx 0 pdg: 211 tid: 53
+child of vtx 0 pdg: -211 tid: 54
+child of vtx 0 pdg: 211 tid: 55
+child of vtx 0 pdg: 321 tid: 56
+child of vtx 0 pdg: -321 tid: 57
+child of vtx 0 pdg: 211 tid: 58
+child of vtx 0 pdg: -211 tid: 59
+child of vtx 0 pdg: 211 tid: 60
+child of vtx 0 pdg: 321 tid: 61
+child of vtx 0 pdg: -211 tid: 62
+child of vtx 0 pdg: 211 tid: 63
+child of vtx 0 pdg: -211 tid: 64
+child of vtx 0 pdg: 321 tid: 65
+child of vtx 0 pdg: -321 tid: 66
+child of vtx 0 pdg: 211 tid: 67
+child of vtx 0 pdg: 211 tid: 68
+child of vtx 0 pdg: -211 tid: 69
+child of vtx 0 pdg: 211 tid: 70
+child of vtx 0 pdg: -211 tid: 71
+child of vtx 0 pdg: 211 tid: 72
+child of vtx 0 pdg: -211 tid: 73
+child of vtx 0 pdg: 211 tid: 74
+child of vtx 0 pdg: -211 tid: 75
+child of vtx 0 pdg: 211 tid: 76
+child of vtx 0 pdg: 3112 tid: 77
+child of vtx 0 pdg: -3112 tid: 78
+child of vtx 0 pdg: -211 tid: 79
+child of vtx 0 pdg: 2212 tid: 80
+child of vtx 0 pdg: -2212 tid: 81
+child of vtx 0 pdg: 211 tid: 82
+child of vtx 0 pdg: 2212 tid: 83
+child of vtx 0 pdg: -2112 tid: 84
+child of vtx 0 pdg: 211 tid: 85
+child of vtx 0 pdg: -211 tid: 86
+child of vtx 0 pdg: 211 tid: 87
+child of vtx 0 pdg: -211 tid: 88
+child of vtx 0 pdg: 211 tid: 89
+child of vtx 0 pdg: 211 tid: 90
+child of vtx 0 pdg: -211 tid: 91
+child of vtx 0 pdg: 310 tid: 92
+child of vtx 0 pdg: 211 tid: 93
+child of vtx 0 pdg: -211 tid: 94
+child of vtx 0 pdg: 2112 tid: 95
+child of vtx 0 pdg: -2112 tid: 96
+child of vtx 0 pdg: -321 tid: 97
+child of vtx 0 pdg: 211 tid: 98
+child of vtx 0 pdg: 2212 tid: 99
+child of vtx 0 pdg: 211 tid: 100
+child of vtx 0 pdg: 211 tid: 101
+child of vtx 0 pdg: -211 tid: 102
+child of vtx 0 pdg: 211 tid: 103
+child of vtx 0 pdg: -211 tid: 104
+child of vtx 0 pdg: 211 tid: 105
+child of vtx 0 pdg: -211 tid: 106
+child of vtx 0 pdg: 211 tid: 107
+child of vtx 0 pdg: -211 tid: 108
+child of vtx 0 pdg: 211 tid: 109
+child of vtx 0 pdg: 211 tid: 110
+child of vtx 0 pdg: -211 tid: 111
+child of vtx 0 pdg: -211 tid: 112
+child of vtx 0 pdg: -321 tid: 113
+child of vtx 0 pdg: 211 tid: 114
+child of vtx 0 pdg: 211 tid: 115
+child of vtx 0 pdg: -211 tid: 116
+child of vtx 0 pdg: 130 tid: 117
+child of vtx 0 pdg: 310 tid: 118
+child of vtx 0 pdg: 211 tid: 119
+child of vtx 0 pdg: -211 tid: 120
+child of vtx 0 pdg: -211 tid: 121
+child of vtx 0 pdg: 321 tid: 122
+child of vtx 0 pdg: 211 tid: 123
+child of vtx 0 pdg: 310 tid: 124
+child of vtx 0 pdg: 211 tid: 125
+child of vtx 0 pdg: -211 tid: 126
+child of vtx 0 pdg: -211 tid: 127
+child of vtx 0 pdg: -211 tid: 128
+child of vtx 0 pdg: 2112 tid: 129
+child of vtx 0 pdg: -2112 tid: 130
+child of vtx 0 pdg: 211 tid: 131
+child of vtx 0 pdg: -211 tid: 132
+child of vtx 0 pdg: 211 tid: 133
+child of vtx 0 pdg: -211 tid: 134
+child of vtx 0 pdg: -211 tid: 135
+child of vtx 0 pdg: -211 tid: 136
+child of vtx 0 pdg: 211 tid: 137
+child of vtx 0 pdg: -211 tid: 138
+child of vtx 0 pdg: -211 tid: 139
+child of vtx 0 pdg: -211 tid: 140
+child of vtx 0 pdg: -211 tid: 141
+child of vtx 0 pdg: 211 tid: 142
+child of vtx 0 pdg: -211 tid: 143
+child of vtx 0 pdg: -211 tid: 144
+child of vtx 0 pdg: 211 tid: 145
+child of vtx 0 pdg: -211 tid: 146
+child of vtx 0 pdg: 211 tid: 147
+child of vtx 0 pdg: -211 tid: 148
+child of vtx 0 pdg: 211 tid: 149
+child of vtx 0 pdg: 211 tid: 150
+child of vtx 0 pdg: -211 tid: 151
+child of vtx 0 pdg: 211 tid: 152
+child of vtx 0 pdg: -211 tid: 153
+child of vtx 0 pdg: 211 tid: 154
+child of vtx 0 pdg: -211 tid: 155
+child of vtx 0 pdg: 211 tid: 156
+child of vtx 0 pdg: -211 tid: 157
+child of vtx 0 pdg: 2112 tid: 158
+child of vtx 0 pdg: -211 tid: 159
+child of vtx 0 pdg: -2112 tid: 160
+child of vtx 0 pdg: -211 tid: 161
+child of vtx 0 pdg: 310 tid: 162
+child of vtx 0 pdg: 130 tid: 163
+child of vtx 0 pdg: 310 tid: 164
+child of vtx 0 pdg: 130 tid: 165
+child of vtx 0 pdg: 211 tid: 166
+child of vtx 0 pdg: -211 tid: 167
+child of vtx 0 pdg: 22 tid: 168
+child of vtx 0 pdg: 22 tid: 169
+child of vtx 0 pdg: 211 tid: 172
+child of vtx 0 pdg: -211 tid: 173
+child of vtx 0 pdg: 22 tid: 174
+child of vtx 0 pdg: 22 tid: 175
+child of vtx 0 pdg: 22 tid: 176
+child of vtx 0 pdg: 22 tid: 179
+child of vtx 0 pdg: 22 tid: 180
+child of vtx 0 pdg: 22 tid: 181
+child of vtx 0 pdg: 22 tid: 182
+child of vtx 0 pdg: 321 tid: 183
+child of vtx 0 pdg: -321 tid: 184
+child of vtx 0 pdg: 211 tid: 185
+child of vtx 0 pdg: -211 tid: 186
+child of vtx 0 pdg: 22 tid: 187
+child of vtx 0 pdg: 22 tid: 188
+child of vtx 0 pdg: 22 tid: 189
+child of vtx 0 pdg: 22 tid: 190
+child of vtx 0 pdg: 22 tid: 191
+child of vtx 0 pdg: 11 tid: 192
+child of vtx 0 pdg: -11 tid: 193
+child of vtx 0 pdg: 211 tid: 198
+child of vtx 0 pdg: -211 tid: 199
+child of vtx 0 pdg: 22 tid: 200
+child of vtx 0 pdg: 22 tid: 201
+child of vtx 0 pdg: 130 tid: 202
+child of vtx 0 pdg: 310 tid: 203
+child of vtx 0 pdg: 211 tid: 204
+child of vtx 0 pdg: -211 tid: 205
+child of vtx 0 pdg: 211 tid: 206
+child of vtx 0 pdg: -211 tid: 207
+child of vtx 0 pdg: 211 tid: 208
+child of vtx 0 pdg: -211 tid: 209
+child of vtx 0 pdg: 211 tid: 210
+child of vtx 0 pdg: -211 tid: 211
+child of vtx 0 pdg: 211 tid: 215
+child of vtx 0 pdg: -211 tid: 216
+child of vtx 0 pdg: 22 tid: 217
+child of vtx 0 pdg: 22 tid: 218
+child of vtx 0 pdg: 22 tid: 219
+child of vtx 0 pdg: 22 tid: 220
+child of vtx 0 pdg: 22 tid: 221
+child of vtx 0 pdg: 22 tid: 222
+child of vtx 0 pdg: 22 tid: 223
+child of vtx 0 pdg: 22 tid: 224
+child of vtx 0 pdg: 22 tid: 225
+child of vtx 0 pdg: 22 tid: 226
+child of vtx 0 pdg: 22 tid: 227
+child of vtx 0 pdg: 22 tid: 228
+child of vtx 0 pdg: 22 tid: 229
+child of vtx 0 pdg: 22 tid: 230
+child of vtx 0 pdg: 22 tid: 231
+child of vtx 0 pdg: 22 tid: 236
+child of vtx 0 pdg: 22 tid: 237
+child of vtx 0 pdg: 22 tid: 238
+child of vtx 0 pdg: 22 tid: 239
+child of vtx 0 pdg: 22 tid: 240
+child of vtx 0 pdg: 22 tid: 241
+child of vtx 0 pdg: 22 tid: 242
+child of vtx 0 pdg: 22 tid: 243
+child of vtx 0 pdg: 211 tid: 244
+child of vtx 0 pdg: -211 tid: 245
+child of vtx 0 pdg: 22 tid: 246
+child of vtx 0 pdg: 22 tid: 247
+child of vtx 0 pdg: 321 tid: 248
+child of vtx 0 pdg: -321 tid: 249
+child of vtx 0 pdg: 22 tid: 250
+child of vtx 0 pdg: 22 tid: 251
+child of vtx 0 pdg: 22 tid: 252
+child of vtx 0 pdg: 22 tid: 253
+child of vtx 0 pdg: 22 tid: 254
+child of vtx 0 pdg: 22 tid: 255
+child of vtx 0 pdg: 22 tid: 256
+child of vtx 0 pdg: 22 tid: 257
+child of vtx 0 pdg: 211 tid: 258
+child of vtx 0 pdg: -211 tid: 259
+child of vtx 0 pdg: 22 tid: 260
+child of vtx 0 pdg: 22 tid: 261
+child of vtx 0 pdg: 22 tid: 262
+child of vtx 0 pdg: 211 tid: 265
+child of vtx 0 pdg: -211 tid: 266
+child of vtx 0 pdg: 22 tid: 267
+child of vtx 0 pdg: 22 tid: 268
+child of vtx 0 pdg: 22 tid: 269
+child of vtx 0 pdg: 211 tid: 270
+child of vtx 0 pdg: -211 tid: 271
+child of vtx 0 pdg: 22 tid: 277
+child of vtx 0 pdg: 22 tid: 278
+child of vtx 0 pdg: 22 tid: 279
+child of vtx 0 pdg: 22 tid: 280
+child of vtx 0 pdg: 22 tid: 283
+child of vtx 0 pdg: 22 tid: 284
+child of vtx 0 pdg: 22 tid: 287
+child of vtx 0 pdg: 22 tid: 288
+child of vtx 0 pdg: 22 tid: 289
+child of vtx 0 pdg: 22 tid: 290
+child of vtx 0 pdg: 22 tid: 293
+child of vtx 0 pdg: 22 tid: 294
+child of vtx 0 pdg: 22 tid: 299
+child of vtx 0 pdg: 22 tid: 302
+child of vtx 0 pdg: 22 tid: 303
+child of vtx 0 pdg: 22 tid: 304
+child of vtx 0 pdg: 22 tid: 305
+child of vtx 0 pdg: 22 tid: 306
+child of vtx 0 pdg: 22 tid: 307
+child of vtx 0 pdg: 22 tid: 308
+child of vtx 0 pdg: 22 tid: 309
+child of vtx 0 pdg: 22 tid: 310
+child of vtx 0 pdg: 22 tid: 313
+child of vtx 0 pdg: 22 tid: 314
+child of vtx 0 pdg: 22 tid: 317
+child of vtx 0 pdg: 11 tid: 318
+child of vtx 0 pdg: -11 tid: 319
+child of vtx 0 pdg: 22 tid: 320
+child of vtx 0 pdg: 22 tid: 321
+child of vtx 0 pdg: 22 tid: 322
+child of vtx 0 pdg: 22 tid: 323
+child of vtx 0 pdg: 22 tid: 324
+child of vtx 0 pdg: 22 tid: 325
+child of vtx 0 pdg: 22 tid: 329
+child of vtx 0 pdg: 22 tid: 330
+child of vtx 0 pdg: 22 tid: 331
+child of vtx 0 pdg: 22 tid: 332
+child of vtx 0 pdg: 22 tid: 333
+child of vtx 0 pdg: 22 tid: 334
+child of vtx 0 pdg: 22 tid: 337
+child of vtx 0 pdg: 22 tid: 338
+child of vtx 0 pdg: 22 tid: 341
+child of vtx 0 pdg: 22 tid: 342
+child of vtx 0 pdg: 22 tid: 343
+child of vtx 0 pdg: 22 tid: 344
+child of vtx 0 pdg: 22 tid: 347
+child of vtx 0 pdg: 22 tid: 348
+child of vtx 0 pdg: 22 tid: 349
+child of vtx 0 pdg: 22 tid: 350
+child of vtx 0 pdg: 22 tid: 351
+child of vtx 0 pdg: 22 tid: 352
+child of vtx 0 pdg: 211 tid: 353
+child of vtx 0 pdg: -211 tid: 354
+child of vtx 0 pdg: 22 tid: 355
+child of vtx 0 pdg: 22 tid: 356
+child of vtx 0 pdg: 211 tid: 357
+child of vtx 0 pdg: -211 tid: 358
+child of vtx 0 pdg: 22 tid: 361
+child of vtx 0 pdg: 22 tid: 362
+child of vtx 0 pdg: 22 tid: 363
+child of vtx 0 pdg: 22 tid: 364
+child of vtx 0 pdg: 22 tid: 365
+child of vtx 0 pdg: 22 tid: 366
+child of vtx 0 pdg: 22 tid: 367
+child of vtx 0 pdg: 22 tid: 368
+child of vtx 0 pdg: 22 tid: 369
+child of vtx 0 pdg: 22 tid: 370
+child of vtx 0 pdg: 22 tid: 371
+child of vtx 0 pdg: 22 tid: 372
+child of vtx 0 pdg: 22 tid: 373
+child of vtx 0 pdg: 22 tid: 374
+child of vtx 0 pdg: 22 tid: 375
+child of vtx 0 pdg: 22 tid: 376
+child of vtx 0 pdg: 22 tid: 377
+child of vtx 0 pdg: 22 tid: 378
+child of vtx 0 pdg: 22 tid: 379
+child of vtx 0 pdg: 22 tid: 380
+child of vtx 0 pdg: 22 tid: 381
+child of vtx 0 pdg: 22 tid: 382
+child of vtx 0 pdg: 22 tid: 383
+child of vtx 0 pdg: 22 tid: 384
+child of vtx 0 pdg: 22 tid: 385
+child of vtx 0 pdg: 22 tid: 386
+child of vtx 0 pdg: 22 tid: 387
+child of vtx 0 pdg: 22 tid: 388
+child of vtx 0 pdg: 22 tid: 389
+child of vtx 0 pdg: 22 tid: 390
+child of vtx 0 pdg: 22 tid: 391
+child of vtx 0 pdg: 22 tid: 392
+child of vtx 0 pdg: 22 tid: 393
+child of vtx 0 pdg: 11 tid: 394
+child of vtx 0 pdg: -11 tid: 395
+child of vtx 0 pdg: 22 tid: 396
+child of vtx 0 pdg: 22 tid: 397
+total approx E: 3051.9
+simvtx 1 ptype 0 (x,y,z) -0.024353 0.0695801 0.141113 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 170
+child of vtx 1 pdg: 22 tid: 171
+child of vtx 1 pdg: 22 tid: 177
+child of vtx 1 pdg: 22 tid: 178
+child of vtx 1 pdg: 22 tid: 232
+child of vtx 1 pdg: 22 tid: 233
+child of vtx 1 pdg: 22 tid: 234
+child of vtx 1 pdg: 22 tid: 235
+child of vtx 1 pdg: 22 tid: 263
+child of vtx 1 pdg: 22 tid: 264
+child of vtx 1 pdg: 22 tid: 339
+child of vtx 1 pdg: 22 tid: 340
+child of vtx 1 pdg: 22 tid: 345
+child of vtx 1 pdg: 22 tid: 346
+total approx E: 70.3883
+simvtx 2 ptype 0 (x,y,z) -0.024353 0.0695801 0.140625 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 194
+child of vtx 2 pdg: 22 tid: 197
+child of vtx 2 pdg: 22 tid: 311
+child of vtx 2 pdg: 22 tid: 312
+total approx E: 53.9041
+simvtx 3 ptype 0 (x,y,z) -0.024353 0.0695801 0.135742 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 195
+total approx E: 222.717
+simvtx 4 ptype 0 (x,y,z) -0.024353 0.0695801 0.141113 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 196
+child of vtx 4 pdg: 22 tid: 285
+child of vtx 4 pdg: 22 tid: 286
+child of vtx 4 pdg: 22 tid: 315
+child of vtx 4 pdg: 22 tid: 316
+child of vtx 4 pdg: 22 tid: 359
+child of vtx 4 pdg: 22 tid: 360
+total approx E: 80.7685
+simvtx 5 ptype 0 (x,y,z) -0.024353 0.0695801 0.14209 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 212
+child of vtx 5 pdg: 22 tid: 291
+child of vtx 5 pdg: 22 tid: 292
+child of vtx 5 pdg: 22 tid: 328
+total approx E: 128.215
+simvtx 6 ptype 0 (x,y,z) -0.024353 0.0695801 0.141602 ptid -1 ppdg -1
+child of vtx 6 pdg: 22 tid: 213
+child of vtx 6 pdg: 22 tid: 214
+child of vtx 6 pdg: 22 tid: 273
+child of vtx 6 pdg: 22 tid: 275
+child of vtx 6 pdg: 22 tid: 276
+child of vtx 6 pdg: 22 tid: 326
+child of vtx 6 pdg: 22 tid: 327
+total approx E: 91.3589
+simvtx 7 ptype 0 (x,y,z) -0.024353 0.0695801 0.141602 ptid -1 ppdg -1
+child of vtx 7 pdg: 22 tid: 272
+child of vtx 7 pdg: 22 tid: 281
+child of vtx 7 pdg: 22 tid: 282
+total approx E: 35.4193
+simvtx 8 ptype 0 (x,y,z) -0.024353 0.0695801 0.141602 ptid -1 ppdg -1
+child of vtx 8 pdg: 22 tid: 274
+child of vtx 8 pdg: 22 tid: 297
+child of vtx 8 pdg: 22 tid: 298
+total approx E: 17.0165
+simvtx 9 ptype 0 (x,y,z) -0.024292 0.0695801 0.144043 ptid -1 ppdg -1
+child of vtx 9 pdg: 22 tid: 295
+child of vtx 9 pdg: 22 tid: 296
+total approx E: 57.9829
+simvtx 10 ptype 0 (x,y,z) -0.024353 0.0695801 0.141602 ptid -1 ppdg -1
+child of vtx 10 pdg: 22 tid: 300
+child of vtx 10 pdg: 22 tid: 301
+child of vtx 10 pdg: 22 tid: 335
+child of vtx 10 pdg: 22 tid: 336
+total approx E: 30.113
+Event 764020
+simvtx 0 ptype 0 (x,y,z) -0.0245972 0.0695801 0.597656 ptid -1 ppdg -1
+child of vtx 0 pdg: -211 tid: 1
+child of vtx 0 pdg: -211 tid: 2
+child of vtx 0 pdg: 211 tid: 3
+child of vtx 0 pdg: -211 tid: 4
+child of vtx 0 pdg: 211 tid: 5
+child of vtx 0 pdg: -211 tid: 6
+child of vtx 0 pdg: -321 tid: 7
+child of vtx 0 pdg: -211 tid: 8
+child of vtx 0 pdg: 211 tid: 9
+child of vtx 0 pdg: -211 tid: 10
+child of vtx 0 pdg: 321 tid: 11
+child of vtx 0 pdg: -321 tid: 12
+child of vtx 0 pdg: 211 tid: 13
+child of vtx 0 pdg: -211 tid: 14
+child of vtx 0 pdg: -211 tid: 15
+child of vtx 0 pdg: 211 tid: 16
+child of vtx 0 pdg: -211 tid: 17
+child of vtx 0 pdg: 211 tid: 18
+child of vtx 0 pdg: 211 tid: 19
+child of vtx 0 pdg: -321 tid: 20
+child of vtx 0 pdg: 211 tid: 21
+child of vtx 0 pdg: -211 tid: 22
+child of vtx 0 pdg: 211 tid: 23
+child of vtx 0 pdg: -211 tid: 24
+child of vtx 0 pdg: -211 tid: 25
+child of vtx 0 pdg: 211 tid: 26
+child of vtx 0 pdg: 211 tid: 27
+child of vtx 0 pdg: -211 tid: 28
+child of vtx 0 pdg: -211 tid: 29
+child of vtx 0 pdg: 321 tid: 30
+child of vtx 0 pdg: -211 tid: 31
+child of vtx 0 pdg: -211 tid: 32
+child of vtx 0 pdg: 211 tid: 33
+child of vtx 0 pdg: -211 tid: 34
+child of vtx 0 pdg: -2212 tid: 35
+child of vtx 0 pdg: 211 tid: 36
+child of vtx 0 pdg: -211 tid: 37
+child of vtx 0 pdg: 2212 tid: 38
+child of vtx 0 pdg: -2112 tid: 39
+child of vtx 0 pdg: -211 tid: 40
+child of vtx 0 pdg: 211 tid: 41
+child of vtx 0 pdg: -211 tid: 42
+child of vtx 0 pdg: 211 tid: 43
+child of vtx 0 pdg: 211 tid: 44
+child of vtx 0 pdg: -211 tid: 45
+child of vtx 0 pdg: 211 tid: 46
+child of vtx 0 pdg: -211 tid: 47
+child of vtx 0 pdg: 211 tid: 48
+child of vtx 0 pdg: 2212 tid: 49
+child of vtx 0 pdg: 211 tid: 50
+child of vtx 0 pdg: -211 tid: 51
+child of vtx 0 pdg: -211 tid: 52
+child of vtx 0 pdg: 211 tid: 53
+child of vtx 0 pdg: 211 tid: 54
+child of vtx 0 pdg: 130 tid: 55
+child of vtx 0 pdg: 211 tid: 56
+child of vtx 0 pdg: 130 tid: 57
+child of vtx 0 pdg: -211 tid: 58
+child of vtx 0 pdg: 211 tid: 59
+child of vtx 0 pdg: 310 tid: 60
+child of vtx 0 pdg: 310 tid: 61
+child of vtx 0 pdg: 211 tid: 62
+child of vtx 0 pdg: 211 tid: 63
+child of vtx 0 pdg: -211 tid: 64
+child of vtx 0 pdg: 310 tid: 65
+child of vtx 0 pdg: 3122 tid: 66
+child of vtx 0 pdg: 211 tid: 67
+child of vtx 0 pdg: 310 tid: 68
+child of vtx 0 pdg: 310 tid: 69
+child of vtx 0 pdg: 22 tid: 70
+child of vtx 0 pdg: 22 tid: 71
+child of vtx 0 pdg: 211 tid: 74
+child of vtx 0 pdg: -211 tid: 75
+child of vtx 0 pdg: 22 tid: 78
+child of vtx 0 pdg: 22 tid: 79
+child of vtx 0 pdg: 22 tid: 80
+child of vtx 0 pdg: 22 tid: 81
+child of vtx 0 pdg: 22 tid: 82
+child of vtx 0 pdg: 22 tid: 83
+child of vtx 0 pdg: 22 tid: 84
+child of vtx 0 pdg: 22 tid: 85
+child of vtx 0 pdg: 211 tid: 86
+child of vtx 0 pdg: -211 tid: 87
+child of vtx 0 pdg: 211 tid: 88
+child of vtx 0 pdg: -211 tid: 89
+child of vtx 0 pdg: 211 tid: 90
+child of vtx 0 pdg: -211 tid: 91
+child of vtx 0 pdg: 22 tid: 92
+child of vtx 0 pdg: 22 tid: 93
+child of vtx 0 pdg: 22 tid: 94
+child of vtx 0 pdg: 22 tid: 95
+child of vtx 0 pdg: 22 tid: 96
+child of vtx 0 pdg: 22 tid: 97
+child of vtx 0 pdg: 22 tid: 98
+child of vtx 0 pdg: 22 tid: 99
+child of vtx 0 pdg: 22 tid: 100
+child of vtx 0 pdg: 22 tid: 101
+child of vtx 0 pdg: 22 tid: 102
+child of vtx 0 pdg: 22 tid: 103
+child of vtx 0 pdg: 22 tid: 104
+child of vtx 0 pdg: 211 tid: 105
+child of vtx 0 pdg: -211 tid: 106
+child of vtx 0 pdg: 22 tid: 107
+child of vtx 0 pdg: 22 tid: 108
+child of vtx 0 pdg: 22 tid: 109
+child of vtx 0 pdg: 22 tid: 110
+child of vtx 0 pdg: 211 tid: 111
+child of vtx 0 pdg: -211 tid: 112
+child of vtx 0 pdg: 22 tid: 115
+child of vtx 0 pdg: 22 tid: 116
+child of vtx 0 pdg: 22 tid: 117
+child of vtx 0 pdg: 22 tid: 118
+child of vtx 0 pdg: 22 tid: 119
+child of vtx 0 pdg: 22 tid: 120
+child of vtx 0 pdg: 22 tid: 121
+child of vtx 0 pdg: 22 tid: 122
+child of vtx 0 pdg: 22 tid: 123
+child of vtx 0 pdg: 22 tid: 124
+child of vtx 0 pdg: 22 tid: 125
+child of vtx 0 pdg: 22 tid: 128
+child of vtx 0 pdg: 22 tid: 129
+child of vtx 0 pdg: 22 tid: 130
+child of vtx 0 pdg: 22 tid: 131
+child of vtx 0 pdg: 22 tid: 132
+child of vtx 0 pdg: 22 tid: 134
+child of vtx 0 pdg: 22 tid: 135
+child of vtx 0 pdg: 22 tid: 136
+total approx E: 7257.1
+simvtx 1 ptype 0 (x,y,z) -0.0245972 0.0695801 0.597656 ptid -1 ppdg -1
+child of vtx 1 pdg: 22 tid: 72
+child of vtx 1 pdg: 22 tid: 73
+child of vtx 1 pdg: 22 tid: 137
+total approx E: 37.2477
+simvtx 2 ptype 0 (x,y,z) -0.0245972 0.0695801 0.597656 ptid -1 ppdg -1
+child of vtx 2 pdg: 22 tid: 76
+child of vtx 2 pdg: 22 tid: 77
+total approx E: 17.9315
+simvtx 3 ptype 0 (x,y,z) -0.0245972 0.0695801 0.597656 ptid -1 ppdg -1
+child of vtx 3 pdg: 22 tid: 113
+child of vtx 3 pdg: 22 tid: 114
+total approx E: 18.4337
+simvtx 4 ptype 0 (x,y,z) -0.0245972 0.0695801 0.626953 ptid -1 ppdg -1
+child of vtx 4 pdg: 22 tid: 126
+child of vtx 4 pdg: 22 tid: 127
+total approx E: 1112.38
+simvtx 5 ptype 0 (x,y,z) -0.0245972 0.0695801 0.595703 ptid -1 ppdg -1
+child of vtx 5 pdg: 22 tid: 133
+total approx E: 4.2339
+[0mroot [3] .>
+[0m

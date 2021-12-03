@@ -37,7 +37,7 @@ simVertexTable = cms.EDProducer("SimpleSimVertexFlatTableProducer",
 		y = Var("position.y()", float, precision=8, doc="y position of sim vertex"),
 		z = Var("position.z()", float, precision=8, doc="z postiion of sim vertex"),
 		tof = Var("position.t()", float, precision=8, doc="time of flight of sim vertex"),
-		simtrk_parent_Id = Var("parentIndex()", int, doc="tiD of the parent sim track WARNING: NOT A VECTOR INDEX"),
+		simtrk_parent_tid = Var("parentIndex()", int, doc="tiD of the parent sim track WARNING: NOT A VECTOR INDEX"),
 		processType = Var("processType()", int, doc="type of process associated with vtx")
 	)
 )

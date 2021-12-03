@@ -21,6 +21,7 @@ typedef SimpleFlatTableProducer<SimVertex> SimpleSimVertexFlatTableProducer;
 
 typedef SimpleFlatTableProducer<int> SimpleIntTableProducer;
 
+typedef SimpleFlatTableProducer<float> SimpleFloatTableProducer;
 
 //#include "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h"
 //typedef EventSingletonSimpleFlatTableProducer<GenEventInfoProduct> SimpleGenEventFlatTableProducer;
@@ -31,6 +32,7 @@ typedef SimpleFlatTableProducer<int> SimpleIntTableProducer;
 #include "FWCore/Framework/interface/MakerMacros.h"
 DEFINE_FWK_MODULE(SimpleCandidateFlatTableProducer);
 DEFINE_FWK_MODULE(SimpleIntTableProducer);
+DEFINE_FWK_MODULE(SimpleFloatTableProducer);
 //DEFINE_FWK_MODULE(SimpleGenEventFlatTableProducer);
 //EFINE_FWK_MODULE(SimpleHTXSFlatTableProducer);
 DEFINE_FWK_MODULE(SimpleConversionTableProducer);

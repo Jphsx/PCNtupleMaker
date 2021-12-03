@@ -1,0 +1,61 @@
+
+// --------- Displaying PROOF Session logs --------
+// Server:  
+// Session: t3.unl.edu-1593960516-628457 
+// # of elements: 3 
+// ------------------------------------------------
+
+
+// --------- Start of element log -----------------
+
+// Ordinal: 0 (role: master)
+
+// Path: /home/t3-ku/janguian/.proof/CMSSW_10_6_11_patch1-src-MaterialStudy-PCNtupleMaker-test-justin_work-proof_recosim/session-t3.unl.edu-1593960516-628457/session-t3.unl.edu-1593960516-628457.log 
+// # of retrieved lines: 1 
+
+
+// ------------------------------------------------
+
+// --------- End of element log -------------------
+
+
+// --------- Start of element log -----------------
+
+// Ordinal: 0.0 (role: worker)
+
+// Path: /home/t3-ku/janguian/.proof/CMSSW_10_6_11_patch1-src-MaterialStudy-PCNtupleMaker-test-justin_work-proof_recosim/session-t3.unl.edu-1593960516-628457/worker-0.0-t3.unl.edu-1593960518-628485.log 
+// # of retrieved lines: 6 
+
+
+// ------------------------------------------------
+
+09:48:38 628485 Wrk-0.0 | Info in <TProofServLite::Setup>: fWorkDir: /home/t3-ku/janguian/.proof
+09:48:38 628485 Wrk-0.0 | Info in <TProofServLite::SetupCommon>:  0 global package directories registered
+09:49:39 628485 Wrk-0.0 | Info in <TProofServLite::HandleProcess>: calling fPlayer->Process() with selector name: PCNtuple.C+
+09:49:40 628485 Wrk-0.0 | Info in <TProofPlayerSlave::AssertSelector>: Processing via filename (PCNtuple.C+)
+09:49:40 628485 Wrk-0.0 | Info in <TEventIter::TEventIter>: fPackets list 'ProcessedPackets_0.0' created
+09:49:40 628485 Wrk-0.0 | Info in <TProofPlayerSlave::Process>: save partial results? 0  per-packet? 0
+// --------- End of element log -------------------
+
+
+// --------- Start of element log -----------------
+
+// Ordinal: 0.1 (role: worker)
+
+// Path: /home/t3-ku/janguian/.proof/CMSSW_10_6_11_patch1-src-MaterialStudy-PCNtupleMaker-test-justin_work-proof_recosim/session-t3.unl.edu-1593960516-628457/worker-0.1-t3.unl.edu-1593960518-628487.log 
+// # of retrieved lines: 6 
+
+
+// ------------------------------------------------
+
+09:48:38 628487 Wrk-0.1 | Info in <TProofServLite::Setup>: fWorkDir: /home/t3-ku/janguian/.proof
+09:48:38 628487 Wrk-0.1 | Info in <TProofServLite::SetupCommon>:  0 global package directories registered
+09:49:39 628487 Wrk-0.1 | Info in <TProofServLite::HandleProcess>: calling fPlayer->Process() with selector name: PCNtuple.C+
+09:49:40 628487 Wrk-0.1 | Info in <TProofPlayerSlave::AssertSelector>: Processing via filename (PCNtuple.C+)
+09:49:40 628487 Wrk-0.1 | Info in <TEventIter::TEventIter>: fPackets list 'ProcessedPackets_0.1' created
+09:49:40 628487 Wrk-0.1 | Info in <TProofPlayerSlave::Process>: save partial results? 0  per-packet? 0
+// --------- End of element log -------------------
+
+
+// --------- End of PROOF Session logs ---------
+

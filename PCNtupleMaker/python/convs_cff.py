@@ -16,6 +16,12 @@ from PhysicsTools.NanoAOD.common_cff import *
 #	
 #	)
 
+#lumiTable = cms.EDProducer("SimpleDoubleTableProducer",
+    
+#    variables = cms.PSet(
+#	evtTime  Var("evtTime", float, doc="event time")
+ #   )
+#)
 
 convTable = cms.EDProducer("SimpleConversionTableProducer",
     src = cms.InputTag("allConversions"),
@@ -129,10 +135,20 @@ convTable = cms.EDProducer("SimpleConversionTableProducer",
 #	convVtxIdx = Var("vtxmatch:convVtxIdx",int, doc="index of nearest SimVertex"),
 
 	),
-	externalVariables = cms.PSet(
-		convVtxIdx = ExtVar( cms.InputTag("vtxmatch:convVtxIdx"),int,doc="index of nearest sim vertex"),
-		vtxdl = ExtVar( cms.InputTag("vtxmatch:vtxdl"),float,doc="distance between reco conversion and nearest sim vertex"),
-	),
+	#these only work with mc
+#	externalVariables = cms.PSet(
+#		convVtxIdx = ExtVar( cms.InputTag("vtxmatch:convVtxIdx"),int,doc="index of nearest sim vertex"),
+#		vtxdl = ExtVar( cms.InputTag("vtxmatch:vtxdl"),float,doc="distance between reco conversion and nearest sim vertex"),
+#		Tk0_Idx = ExtVar( cms.InputTag("tkmatch:Tk0Idx"),int,doc="index of nearest sim track in dR"),
+#		Tk0_dR = ExtVar( cms.InputTag("tkmatch:Tk0dR"),float,doc="dR with nearest sim track"),
+#		Tk0_dPtRel = ExtVar( cms.InputTag("tkmatch:Tk0dPtRel"),float, doc="dptrel with nearest sim track (by dr), abs(ptsim - pt)/ptsim"),
+
+#		Tk1_Idx = ExtVar( cms.InputTag("tkmatch:Tk1Idx"),int,doc="index of nearest sim track in dR"),
+#		Tk1_dR = ExtVar( cms.InputTag("tkmatch:Tk1dR"),float,doc="dR with nearest sim track"),
+#		Tk1_dPtRel = ExtVar( cms.InputTag("tkmatch:Tk1dPtRel"),float, doc="dptrel with nearest sim track (by dr), abs(ptsim - pt)/ptsim"),
+
+#	),
+
 
 )
 
@@ -141,6 +157,12 @@ vtxmatch = cms.EDProducer("convVtxSimVtxMatcher",
 	src= cms.InputTag("allConversions"),
 	simsrc = cms.InputTag("g4SimHits"),
 )
+tkmatch = cms.EDProducer("convTrkSimTrkMatcher",
+	src= cms.InputTag("allConversions"),
+	simsrc = cms.InputTag("g4SimHits"),
+)
+
+
 #this table doesnt work
 vtxidxtable = cms.EDProducer("SimpleIntTableProducer",
 	src= cms.InputTag("vtxmatch:convVtxIdx"),
@@ -216,11 +238,27 @@ c0MCTable = cms.EDProducer("CandMCMatchTableProducer",
 )
 
 
+#lumi testing
+#lumi = cms.EDProducer("lumiprod",
+
+#)
+#GlobalVariablesTableProducer
+#lumiTable = cms.EDProducer("GlobalVariablesTableProducer",
+#    src = cms.InputTag("lumiColl"),
+#    variables = cms.PSet(
+#        evtTime = Var("evtTime", float, doc="event time")
+#    ),
+#)
+
+lumi = cms.EDProducer("LumiTablesProducer",
+)
+
 
 #convTables = cms.Sequence( convs + convTable)
-convTables = cms.Sequence( vtxmatch *  convTable)
+convTables = cms.Sequence( (vtxmatch +tkmatch) *  convTable)
 #convTablesMC = cms.Sequence( convTable + convMCMatchForTable + qMCTable #)
 #testseq = cms.Sequence(convTable + c0tks +  c0TrackCandidates+Tk0Table + convMCMatchForTable  +c0MCTable) 
 #testseq = cms.Sequence(c0tks + c0TrackCandidates + Tk0Table + convTable + convMCMatchForTable + c0MCTable)
 testseq = cms.Sequence(convTable)
+lumiseq = cms.Sequence(lumi)#* lumiTable)
 
